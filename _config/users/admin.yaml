@@ -1,0 +1,13 @@
+---
+first_name: Admin
+last_name: McAwesome
+roles:
+  - admin
+email: jay.verburg@sq1.com
+password: ""
+_uid: RS5GKB551085f8602f9j7dKbPDg
+password_hash: $2a$08$koH2n46dkAxQjr/6.oiKSuWDpkBGmy6T6YtB05QkMD//ctZKrvpp.
+---
+Have no fears, your password, while plain text to start, will be encrypted upon first login. If ever you need to manually reset a password you can wipe out the password fields and start anew.
+
+Your username is the name of the YAML file. That would make this user "admin".

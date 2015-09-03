@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:FC599CE1-B2CA-43A2-B967-F6FBEB61A114</id>
+ <title>Page list Atom feed</title>
+ <updated>2012-11-25T16:54:23-08:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:8E6E2A31-264E-4A0C-9ED6-490EFB914779</id>
+  <title>Home</title>
+  <title xmlns="urn:iweb:">Home</title>
+  <in-navbar xmlns="urn:iweb:">8E6E2A31-264E-4A0C-9ED6-490EFB914779</in-navbar>
+  <link rel="alternate" href="Home.html"/>
+  <updated>2012-11-25T16:54:23.001-08:00</updated>
+  <content>Home</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:5C92E3F0-8172-406C-AFE1-CEA0BF377BB0</id>
+  <title>About</title>
+  <title xmlns="urn:iweb:">About</title>
+  <in-navbar xmlns="urn:iweb:">5C92E3F0-8172-406C-AFE1-CEA0BF377BB0</in-navbar>
+  <link rel="alternate" href="About.html"/>
+  <updated>2012-11-25T16:54:23.002-08:00</updated>
+  <content>About</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:E1ECF61F-6DBE-4C9F-A2C7-5B13C4887544</id>
+  <title>Store</title>
+  <title xmlns="urn:iweb:">Store</title>
+  <in-navbar xmlns="urn:iweb:">E1ECF61F-6DBE-4C9F-A2C7-5B13C4887544</in-navbar>
+  <link rel="alternate" href="Store.html"/>
+  <updated>2012-11-25T16:54:23.003-08:00</updated>
+  <content>Store</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:1440981F-02D9-49C1-8481-159F596A3169</id>
+  <title>Donations</title>
+  <title xmlns="urn:iweb:">Donations</title>
+  <in-navbar xmlns="urn:iweb:">1440981F-02D9-49C1-8481-159F596A3169</in-navbar>
+  <link rel="alternate" href="Donations.html"/>
+  <updated>2012-11-25T16:54:23.004-08:00</updated>
+  <content>Donations</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:87545E32-86DA-4492-B6BB-B75BDEBAA218</id>
+  <title>Fundraisers</title>
+  <title xmlns="urn:iweb:">Fundraisers</title>
+  <in-navbar xmlns="urn:iweb:">87545E32-86DA-4492-B6BB-B75BDEBAA218</in-navbar>
+  <link rel="alternate" href="Fundraisers.html"/>
+  <updated>2012-11-25T16:54:23.005-08:00</updated>
+  <content>Fundraisers</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:30B11EFB-31D3-41B3-A1B8-194515A7DD2D</id>
+  <title>Photos &amp; Movies</title>
+  <title xmlns="urn:iweb:">Photos &amp; Movies</title>
+  <in-navbar xmlns="urn:iweb:">30B11EFB-31D3-41B3-A1B8-194515A7DD2D</in-navbar>
+  <link rel="alternate" href="Photos_%26_Movies/Photos_%26_Movies.html"/>
+  <updated>2012-11-25T16:54:23.006-08:00</updated>
+  <content>Photos &amp; Movies</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:254825C6-8672-4617-946D-857FC855C21B</id>
+  <title>Blog</title>
+  <title xmlns="urn:iweb:">Blog</title>
+  <in-navbar xmlns="urn:iweb:">254825C6-8672-4617-946D-857FC855C21B</in-navbar>
+  <link rel="alternate" href="Blog/Blog.html"/>
+  <updated>2005-09-20T18:08:38-07:00</updated>
+  <content>Blog</content>
+ </entry>
+</feed>

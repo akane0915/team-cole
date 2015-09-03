@@ -1,0 +1,54 @@
+							<div id="contact-form">
+							{{ email_form subject="Contact Form" to="jay.verburg@sq1.com" required="name|from|phone|message" }}
+							{{ if error}}
+							<h1>Error</h1>
+							<ul>
+								{{ errors }}
+								<li>{{error}}</li>
+								{{ /errors }}
+							</ul>
+							{{ endif }}
+							{{ if success }}
+							<div id="success" class="alert alert-success" style="display: none;">Your message has been sent!</div>
+							{{ else }}
+							<div id="errors" class="alert alert-danger" style="display: none;">
+								<strong>There were some problems with your form submission:</strong>
+								<ul id="error-list">
+									
+								</ul>
+							</div>
+							<div id="success" class="alert alert-success" style="display: none;">Your message has been sent!</div>
+							<div class="row">
+								<div class="large-4 columns">
+									<label class="sr-only" for="name">Name <span class="required">*</span>
+									<input type="text" id="name" name="name" value="" placeholder="Name" required />
+									</label>
+								</div>
+								<div class="large-4 columns">
+									<label class="sr-only" for="from">Email <span class="required">*</span>
+									<input type="email" id="from" name="email" value="" placeholder="Email" required />
+									</label>
+								</div>
+								<div class="large-4 columns">
+									<label class="sr-only" for="phone">Phone
+									<input type="tel" id="phone" name="phone" value="" placeholder="Phone" />
+									</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="small-12 columns">
+									<label class="sr-only" for="message">Message <span class="required">*</span>
+									<textarea rows="5" name="message" value="" placeholder="Message" required ></textarea>
+									</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="small-12 columns frm-submit">
+									<input type="submit" class="button" value="Submit" id="submit-button" />
+									<span id="loading" class="frm-loading" style="display: none;">Loading</span>
+									<p id="req-field-desc" class="fld-required"><span class="required">*</span> indicates a required field</p>
+								</div>
+							</div>
+							{{ endif }}
+							{{ /email_form }}
+							</div>

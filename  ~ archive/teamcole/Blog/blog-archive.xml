@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Blog</title>
+    <link>http://www.teamcole.org/teamcole/Blog</link>
+    <description>This blog encompasses all of the news stories for Cole.
+If you would like to read about the daily updates for Cole, please follow the Team Cole FaceBook group here:
+</description>
+    <item>
+      <title>Civil War football: Murphy takes field as part of 'TEAMCOLE'</title>
+      <link>http://www.teamcole.org/teamcole/Blog/Entries/2012/11/22_Civil_War_football__Murphy_takes_field_as_part_of_TEAMCOLE.html</link>
+      <guid isPermaLink="false">940c498a-4786-461a-8a90-d9040453c4f7</guid>
+      <pubDate>Thu, 22 Nov 2012 16:48:48 -0800</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://www.teamcole.org/teamcole/Blog/Entries/2012/11/22_Civil_War_football__Murphy_takes_field_as_part_of_TEAMCOLE.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
+      <title>An uplifting visit with the Oregon Ducks for young Cole Hexum -- and vice versa</title>
+      <link>http://www.teamcole.org/teamcole/Blog/Entries/2012/11/22_An_uplifting_visit_with_the_Oregon_Ducks_for_young_Cole_Hexum_-_and_vice_versa.html</link>
+      <guid isPermaLink="false">2f430d85-5a53-4fc1-a409-541e43eedb7f</guid>
+      <pubDate>Thu, 22 Nov 2012 09:47:56 -0800</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://www.teamcole.org/teamcole/Blog/Entries/2012/11/22_An_uplifting_visit_with_the_Oregon_Ducks_for_young_Cole_Hexum_-_and_vice_versa.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
+      <title>Its rally time for Cole Hexum</title>
+      <link>http://www.teamcole.org/teamcole/Blog/Entries/2012/11/21_Its_rally_time_for_Cole_Hexum.html</link>
+      <guid isPermaLink="false">914adad1-b288-48c3-8369-22b862ad7d1c</guid>
+      <pubDate>Wed, 21 Nov 2012 09:50:47 -0800</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://www.teamcole.org/teamcole/Blog/Entries/2012/11/21_Its_rally_time_for_Cole_Hexum.html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>EEEE, MMMM d, y</iweb:dateFormat>
+    <iweb:baseURL>http://www.teamcole.org/teamcole/Blog</iweb:baseURL>
+    <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
+  </channel>
+</rss>

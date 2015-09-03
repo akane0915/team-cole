@@ -1,0 +1,33 @@
+include: meta
+hide: false
+
+fields:
+  title:
+    instructions: "Enter the main title here."
+
+  main_section:
+    type: section
+    display: Main Content
+    instructions: "Enter your main content here."
+
+  status:
+    display: Status
+    type: status
+  
+  date:
+    display: Event Date
+    type: date
+
+  summary:
+    display: Summary
+    required: true
+    type: textarea
+    height: 100
+    instructions:
+      below: "Add a short summary here."
+
+  content:
+    display: Main Content
+    type: redactor
+    instructions:
+      below: "Add the main content here."

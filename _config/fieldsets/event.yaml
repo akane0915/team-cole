@@ -1,0 +1,59 @@
+include: meta
+hide: false
+
+fields:
+  title:
+    instructions: "Enter the main title here."
+
+  main_section:
+    type: section
+    display: Main Content
+    instructions: "Enter your main content here."
+
+  status:
+    display: Status
+    type: status
+
+  main_img:
+    display: Main Image
+    type: file
+    max_files: 1
+    browse: false
+    allowed: [png, jpg, jpeg]
+    destination: assets/img/events
+    instructions:
+      below: "Add the main image here, this will also display as a thumbnail on the listing page."
+
+  event_date:
+    display: Event Date
+    type: date
+  event_start:
+    display: Start Time
+    type: time
+  event_end:
+    display: End Time
+    type: time
+
+  location:
+    display: Location
+    type: location
+    starting_latitude: 45.52091
+    starting_logitude: -122.67329
+    starting_zoom: 5
+    use_foursquare: false
+    common_locations:
+    allow_geolocation: false
+
+  summary:
+    display: Summary
+    required: true
+    type: textarea
+    height: 100
+    instructions:
+      below: "Add a short summary here."
+
+  content:
+    display: Main Content
+    type: redactor
+    instructions:
+      below: "Add the main content here."

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>TeamCole.org Photos &amp; Movies</title>
+    <link>http://www.teamcole.org/teamcole/Photos_%26_Movies/Photos_%26_Movies.html</link>
+    <description>TeamCole.org Photos &amp; Movies</description>
+    <item>
+      <title>Photos</title>
+      <link>http://www.teamcole.org/teamcole/Photos_%26_Movies/Pages/Photos.html</link>
+      <guid isPermaLink="false">e895e10e-9b63-4aa7-8471-0bd888cf9099</guid>
+    </item>
+    <item>
+      <title>Kidz on the Run</title>
+      <link>http://www.teamcole.org/teamcole/Photos_%26_Movies/Pages/Kidz_on_the_Run.html</link>
+      <guid isPermaLink="false">d7f0ed87-ece4-4cf3-acd7-986137a5286b</guid>
+      <iphoto:thumbnail>http://www.teamcole.org/teamcole/Photos_%26_Movies/Photos_%26_Movies_files/Kidz_on_the_Run.jpg</iphoto:thumbnail>
+      <iweb:contents>1:48</iweb:contents>
+      <iweb:is-movie>true</iweb:is-movie>
+    </item>
+    <item>
+      <title>News Report</title>
+      <link>http://www.teamcole.org/teamcole/Photos_%26_Movies/Pages/News_Report.html</link>
+      <guid isPermaLink="false">a0feaa6a-46f0-4415-bb42-c67c6fb88703</guid>
+      <iphoto:thumbnail>http://www.teamcole.org/teamcole/Photos_%26_Movies/Photos_%26_Movies_files/News_Report.jpg</iphoto:thumbnail>
+      <iweb:contents>2:00</iweb:contents>
+      <iweb:is-movie>true</iweb:is-movie>
+    </item>
+    <item>
+      <title>Inspirational Video</title>
+      <link>http://www.teamcole.org/teamcole/Photos_%26_Movies/Pages/Inspirational_Video.html</link>
+      <guid isPermaLink="false">5b3e7379-fc58-496c-9e7f-b1956d24334c</guid>
+      <iphoto:thumbnail>http://www.teamcole.org/teamcole/Photos_%26_Movies/Photos_%26_Movies_files/Inspirational_Video.jpg</iphoto:thumbnail>
+      <iweb:contents>7:07</iweb:contents>
+      <iweb:is-movie>true</iweb:is-movie>
+    </item>
+  </channel>
+</rss>
