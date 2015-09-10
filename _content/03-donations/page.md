@@ -11,4 +11,4 @@ brief: |
   	<li class="card-disc">Discover</li>
   </ul>
 ---
-We at Team Cole know all too well the immense burden cancer inflicts on a family. That is why we treasure every donation no matter how big or small the amount. Every little bit lightens the medical expenses off our backs. From all of us at Team Cole, please know that our gratitude can never fully be expressed in words.
+We at Team Cole know all too well the immense burden cancer inflicts on a family. That is why we treasure every donation no matter how big or small the amount. From all of us at Team Cole, our gratitude can never fully be expressed in words.

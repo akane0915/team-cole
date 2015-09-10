@@ -52,7 +52,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // This is the default html and body font-size for the base rem value.
-// $rem-base: 16px;
+
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "../bower_components/foundation/scss/foundation/functions";
@@ -63,7 +63,8 @@
 // Since the typical default browser font-size is 16px, that makes the calculation for grid size.
 // If you want your base font-size to be different and not have it affect the grid breakpoints,
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
-// $base-font-size: 100%;
+$base-font-size: 14px;
+$rem-base: $base-font-size;
 
 // The $base-font-size is 100% while $base-line-height is 150%
 // $base-line-height: 150%;
@@ -90,11 +91,12 @@ $include-html-global-classes: $include-html-classes;
 
 // We use these to define default font stacks
 // $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: "open-sans",sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-// $font-weight-normal: normal;
+$font-weight-normal: 300;
 // $font-weight-bold: bold;
 
  $white       : #FFFFFF;
@@ -128,7 +130,7 @@ $include-html-global-classes: $include-html-classes;
 // We use these to control various global styles
 // $body-bg: $jet;
 // $body-font-color: $jet;
-// $body-font-family: $font-family-sans-serif;
+$body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -231,14 +233,14 @@ $include-html-global-classes: $include-html-classes;
 // $subheader-bottom-margin: .5rem;
 
 // A general <small> styling
-// $small-font-size: 60%;
+$small-font-size: 70%;
 // $small-font-color: scale-color($header-font-color, $lightness: 35%);
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: $font-weight-normal;
 // $paragraph-font-size: 1rem;
-// $paragraph-line-height: 1.6;
+$paragraph-line-height: 1.7;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;
@@ -1434,8 +1436,8 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
-// $topbar-menu-link-color: $white;
-// $topbar-menu-icon-color: $white;
+$topbar-menu-link-color: $oil;
+$topbar-menu-icon-color: $oil;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
 // $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon

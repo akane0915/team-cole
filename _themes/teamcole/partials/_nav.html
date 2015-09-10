@@ -1,27 +1,28 @@
 <div class="contain-to-grid">
-	<nav role="navigation" class="top-bar">
-	<div class="logo">
-		<img src="/assets/img/logo.svg" alt="Team Cole Logo" />
-	</div>
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="{{ _site_url }}">{{ _site_name }}</a></h1>
-    </li>
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-  </ul>
-  <section class="top-bar-section">
-  <ul class="right">
-    <li>
-      <a href="{{ homepage }}">Home</a>
-    </li>
-    {{ nav from="/" max_depth="1" }}
-    <li>
-      <a href="#{{ title|slugify|lower }}">{{ title }}</a>
-    </li>
-    {{ /nav }}
-  </ul>
-  </section>
-</nav>
+	<nav class="top-bar" data-topbar role="navigation">
+		<div class="logo">
+			<div></div>
+<!-- 			<img src="/assets/img/logo.svg" alt="Team Cole Logo" /> -->
+		</div>
+		<ul class="title-area">
+			<li class="name show-for-sr">
+				<h1><a href="{{ _site_url }}">{{ _site_name }}</a></h1>
+			</li>
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		</ul>
+		<section class="top-bar-section">
+			<ul class="right">
+				<li>
+					<a href="{{ homepage }}">Home</a>
+				</li>
+				{{ nav from="/" max_depth="1" }}
+				<li>
+					<a href="#{{ title|slugify|lower }}">{{ title }}</a>
+				</li>
+				{{ /nav }}
+			</ul>
+		</section>
+	</nav>
 </div>
 
 {{# 

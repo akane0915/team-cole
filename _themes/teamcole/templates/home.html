@@ -3,10 +3,9 @@
 			
 			<div id="scene" class="scene">
 				<div class="layer city" data-depth="0.10"></div>
-				<div class="layer screen3" data-depth="0.40"></div>
-				<div class="layer screen4" data-depth="0.50"></div>
+				<div class="layer screen2" data-depth="0.40"></div>
+				<div class="layer screen3" data-depth="0.50"></div>
 				<div class="layer screen1" data-depth="0.20"></div>
-				<div class="layer screen2" data-depth="0.30"></div>
 				<div class="row">
 					<div class="small-12 medium-6 medium-push-6 columns">
 						<div class="layer title" data-depth="0.20"><a href="https://donorbox.org/team-cole-team-cole-donations" class="button">Donate Now!</a></div>
@@ -23,20 +22,17 @@
 {{ get_content from="about" }}
 		<section id="{{ title|slugify|lower }}" class="about">
 				<header>
-					<h2>{{ title }}</h2>
+					<h2>{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }}</h2>
 				</header>
 				<div class="row">
 					<div class="small-12 medium-8 columns">
-						{{ if alt_title }}
-						<h3>{{ alt_title }}</h3>
-						{{ endif }}
 						{{ content }}
 					</div>
 					<div class="small-12 medium-4 columns">
 						{{ if photos }}
-						<ul class="small-block-grid-2 medium-block-grid-3">
+						<ul class="small-block-grid-3 thumbs">
 							{{ photos sort_dir="desc" }}
-							<li><a href="{{ transform src="{ photo_image }" width="1000" height="1000" action="resize" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" title="{{ photo_title }}" ><img src="{{ transform src="{ photo_image }" width="150" height="150" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a></li>
+							<li><a href="{{ transform src="{ photo_image }" width="1000" height="1000" action="resize" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" title="{{ photo_title }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a></li>
 							{{ /photos }}
 						</ul>
 						{{ endif }}
@@ -48,20 +44,17 @@
 {{ get_content from="cole" }}
 		<section id="{{ title|slugify|lower }}" class="cole">
 				<header>
-					<h2>{{ title }}</h2>
+					<h2>{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }}</h2>
 				</header>
 				<div class="row">
 					<div class="small-12 medium-8 columns">
-						{{ if alt_title }}
-						<h3>{{ alt_title }}</h3>
-						{{ endif }}
 						{{ content }}
 					</div>
 					<div class="small-12 medium-4 columns">
 						{{ if photos }}
-						<ul class="small-block-grid-3">
+						<ul class="small-block-grid-3 thumbs">
 							{{ photos sort_dir="desc" }}
-							<li><a href="{{ transform src="{ photo_image }" width="1000" height="1000" action="resize" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" title="{{ photo_title }}" ><img src="{{ transform src="{ photo_image }" width="150" height="150" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a></li>
+							<li><a href="{{ transform src="{ photo_image }" width="1000" height="1000" action="resize" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" title="{{ photo_title }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a></li>
 							{{ /photos }}
 						</ul>
 						{{ endif }}
@@ -72,20 +65,15 @@
 
 {{ get_content from="donations" }}
 		<section id="{{ title|slugify|lower }}" class="donations">
-				<header>
-					<h2>{{ title }}</h2>
-				</header>
 				<div class="row">
-					<div class="small-12 medium-6 medium-push-6 columns donate">
+					<div class="small-12 medium-12 large-6 large-push-6 columns action">
 						<div id="pow" class="pow">
 							<?php include "assets/img/clouds.svg";?>
 						</div>
 						{{ brief }}
 					</div>
-					<div class="small-12 medium-6 medium-pull-6 columns">
-						{{ if alt_title }}
-						<h3>{{ alt_title }}</h3>
-						{{ endif }}
+					<div class="small-10 small-centered large-5 large-uncentered large-pull-6 columns ">
+					<h2>{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }}</h2>
 						{{ content }}
 					</div>
 				</div>
