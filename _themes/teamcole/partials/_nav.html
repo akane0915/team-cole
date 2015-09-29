@@ -12,10 +12,12 @@
 		</ul>
 		<section class="top-bar-section">
 			<ul class="right">
+<!--
 				<li>
 					<a href="{{ homepage }}">Home</a>
 				</li>
-				{{ nav from="/" max_depth="1" }}
+-->
+				{{ nav from="/" max_depth="1" exclude="families|events" }}
 				<li>
 					<a href="#{{ title|slugify|lower }}">{{ title }}</a>
 				</li>

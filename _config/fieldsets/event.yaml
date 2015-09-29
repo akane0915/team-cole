@@ -44,6 +44,12 @@ fields:
     common_locations:
     allow_geolocation: false
 
+  tickets:
+    display: External Link
+    type: text
+    instructions:
+      below: "Enter the URL if this event offers ticket or donation purchases."
+
   summary:
     display: Summary
     required: true

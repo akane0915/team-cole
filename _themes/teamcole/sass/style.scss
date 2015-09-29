@@ -33,11 +33,14 @@
 	content: "\e601";
 }
 
-h2, h3 {
+h2 {
 	font-family: "tekton-pro",sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 }
+
+h3 { font-size: $h4-font-size; }
+h4 { font-size: $h5-font-size; }
 
 a, a:hover { transition: all 0.2s ease-in-out; }
 
@@ -133,6 +136,7 @@ header[role="banner"] {
 		position: relative;
 		border-bottom: 3px solid #000; 
 		margin: 0; 
+		padding: 50px 0;
 		> header {
 			position: relative;
 			@include grid-row();
@@ -215,10 +219,26 @@ header[role="banner"] {
 	}
 }
 
-.about, .cole, .events, .donations {
+/*
+.about, .cole, .event, .donations {
 	padding: 50px 0;
 }
+*/
 
+.event { 
+	background-color: #fff; 
+	.medium-4 {
+		text-align: center;
+	}
+	.event-img {
+		margin-bottom: 15px;
+	}
+	@media #{$medium-up} {
+		.event-img {
+			margin-top: -50px; 
+		}
+	}
+}
 .about { background: #fff url(../img/toon2.png); background-attachment: fixed; }
 
 .cole { background-color: #FFFCE3; /* background: #FFFCE3 url(../img/dots-dark.png) repeat-x; background-attachment: fixed; background-size: 14px 366px; */ }
@@ -260,7 +280,7 @@ header[role="banner"] {
 	.puffs2 { animation: puff 9s ease-in-out infinite; }
 	.zoom { animation: zoom 9s ease-in-out infinite; }
 	.button {
-		@include button-size($padding: $button-med);
+	@include button-size($padding: $button-med);
 		margin-bottom: .5rem;
 	}
 	.columns {

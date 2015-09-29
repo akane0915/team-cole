@@ -19,6 +19,32 @@
 		</section>
 {{ /get_content }}
 
+{{ get_content from="events" }}
+{{ entries:listing show_future="true" folder="events" sort="event_date asc" limit="1" conditions="event_date:>=today" }}
+	{{ if event_date|in_future }}
+	<section id="{{ title|slugify|lower }}" class="event">
+		<header>
+			<h2>{{ title }}</h2>
+		</header>
+		<div class="row">
+			<div class="small-12 medium-8 columns">
+				{{ content }}
+				<h4>{{ event_date format="l F jS, Y"}}<br />{{ event_start format="g:i A" }}{{ if event_end }} – {{ event_end format="g:i A" }}{{ endif }}</h4>
+			</div>
+			<div class="small-12 medium-4 columns">
+				{{ if main_img }}
+				<img class="event-img" src="{{ transform src="{ main_img }" width="500" height="500" action="resize" upsize="false" destination="/assets/img/events/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" />
+				{{ endif }}
+				{{ if tickets }}
+				<a class="button" href="{{ tickets }}">Buy Tickets Now</a>
+				{{ endif }}
+			</div>
+		</div>
+	</section>
+	{{ endif }}
+{{ /entries:listing }}
+{{ /get_content }}
+
 {{ get_content from="about" }}
 		<section id="{{ title|slugify|lower }}" class="about">
 				<header>

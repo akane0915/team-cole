@@ -6,7 +6,7 @@ $(function() {
 	
 	/* !Nav Links */
 	/*	----------------------------- */
-	$('.navbar-nav a').click(function(e) {
+	$('.top-bar a').click(function(e) {
 		e.preventDefault();
 		var goto = $(this).attr('href');
 		$('html, body').animate({
