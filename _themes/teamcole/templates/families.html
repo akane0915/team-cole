@@ -1,0 +1,23 @@
+<section role="main">
+	<header>
+		<h2>{{ title }}</h2>
+	</header>
+	<div class="row">
+		<div class="small-12 columns ">
+<!--
+			<h3>{{ brief }}</h3>
+			<h4>{{ content }}</h4>
+-->
+			<ul>
+			{{ entries:listing folder="families" }}
+			<li id="{{ title|slugify|lower }}" >
+				<h5>{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }}</h5>
+				<p>{{ summary }}</p>
+				<a href="{{ url }}">Read more</a>
+			</li>
+			{{ /entries:listing }}
+			</ul>
+		</div>
+		
+	</div>
+</section><!-- END role="main" -->

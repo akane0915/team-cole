@@ -1,6 +1,8 @@
 
 @import "base";
 
+$cole-blue: #6dcff6;
+
 @font-face {
 	font-family: 'icons';
 	src:url('../fonts/icons.eot?yp5zn1');
@@ -33,10 +35,31 @@
 	content: "\e601";
 }
 
-h2 {
-	font-family: "tekton-pro",sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
+.photo {
+	position: relative;
+	float: left;
+	padding: 5px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px hsla(0,100%,0%,0.2);
+	margin-bottom: 20px;
+	&:before, &:after {
+		z-index: -1;
+		position: absolute;
+		content: "";
+		bottom: 15px;
+		left: 10px;
+		width: 50%;
+		top: 80%;
+		max-width:300px;
+		background: #777;
+		box-shadow: 0 15px 10px hsla(0,100%,0%,0.5);
+		transform: rotate(-3deg);
+	}
+	&:after {
+		transform: rotate(3deg);
+		right: 10px;
+		left: auto;
+	}
 }
 
 h3 { font-size: $h4-font-size; }
@@ -60,9 +83,12 @@ a, a:hover { transition: all 0.2s ease-in-out; }
 
 header[role="banner"] {
 	position: relative; 
+	z-index: 500;
+}
+
+.nav-holder {
 	border-bottom: 3px solid #000;
 	box-shadow: 0px 3px 5px hsla(0,100%,0%,0.4); 
-	z-index: 500;
 }
 
 .top-bar {
@@ -143,15 +169,29 @@ header[role="banner"] {
 			padding-left: rem-calc(15);
 			padding-right: rem-calc(15);
 		}
+		h2 {
+			font-family: "tekton-pro",sans-serif;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
 	}
 	.columns { position: relative; }
 }
-
+.vcard {
+	border: none; padding: 0;
+}
 /* !Banner */
 .banner {
 	position: relative;
 	background-color: #6dcff6;
 	overflow: hidden;
+	border-bottom: 3px solid #000; 
+	.city { background: transparent url(../img/banner/city.jpg) no-repeat  50% 100%; }
+	.bang { background: transparent url(../img/banner/bang.png) no-repeat  50% 50%; background-size: contain; }
+	.man { background: transparent url(../img/banner/hero.svg) no-repeat  50% 50%; }
+	.title { background: transparent url(../img/banner/title.svg) no-repeat  50% 0;}
+	.screen1 { background: transparent url(../img/banner/screen-dark.png) no-repeat  50% 50%; background-size: contain; }
+	.screen2, .screen3 { background: transparent url(../img/banner/screen-light.png) no-repeat  50% 50%; background-size: contain; }
 	.scene {
 		padding: 0;
 		margin: 0;
@@ -163,12 +203,8 @@ header[role="banner"] {
 			.medium-push-6 { z-index: 10; }
 		}
 		.layer { position: absolute; }
-		.city { background: transparent url(../img/banner/city.jpg) no-repeat  50% 100%; background-size: 683px 236px; }
-		.bang { background: transparent url(../img/banner/bang.png) no-repeat  50% 50%; background-size: contain; }
-		.man { background: transparent url(../img/banner/hero.svg) no-repeat  50% 50%; }
-		.title { width: 474px; height: 400px; background: transparent url(../img/banner/title.svg) no-repeat  50% 0;}
-		.screen1 { background: transparent url(../img/banner/screen-dark.png) no-repeat  50% 50%; background-size: contain; }
-		.screen2, .screen3 { background: transparent url(../img/banner/screen-light.png) no-repeat  50% 50%; background-size: contain; }
+		.city { background-size: 683px 236px; }
+		.title { width: 474px; height: 400px; }
 		.screen1 { left: 0; top: 0; opacity: 0.35; }
 		.screen2 { left: auto!important; top: auto!important; right: 0; bottom: 0; }
 		.screen3 { top: auto!important; left: 0; bottom: 0; }
@@ -217,16 +253,37 @@ header[role="banner"] {
 			}
 		}
 	}
+	.short {
+		@include grid-row();
+		height: 100px; 
+		position: relative;
+		>div {
+			position: absolute;
+		}
+		.button {
+			float: right; 
+			margin: 25px 10px 0 0; 
+		}
+		.city { width: 520px; height: 180px; left: -100px; bottom: -20px; background-size: 520px 180px; }
+		.bang { display: none; width: 183px; height: 166px; left: -35px; top: -32px; }
+		.man { display: none; width: 116px; height: 152px; left: 5px; top: 10px; }
+		.title { width: 192px; height: 95px; left: 10px; top: 15px; }
+		@media only screen and (max-width: 320px) { 
+			.title { width: 120px; height: 60px; top: 20px; } 
+		}
+		@media #{$medium-up} {
+			.city { left: -100px; }
+			.bang { display: block; left: 80px; top: -32px; }
+			.man { display: block; left: 120px; top: 10px; }
+			.title { left: 250px; top: 15px; }
+		}
+	}
 }
 
-/*
-.about, .cole, .event, .donations {
-	padding: 50px 0;
-}
-*/
 
 .event { 
 	background-color: #fff; 
+	border-bottom: none !important; 
 	.medium-4 {
 		text-align: center;
 	}
@@ -239,7 +296,7 @@ header[role="banner"] {
 		}
 	}
 }
-.about { background: #fff url(../img/toon2.png); background-attachment: fixed; }
+.about { background: #fff url(../img/toon2.png) repeat; /* background-attachment: fixed; */ }
 
 .cole { background-color: #FFFCE3; /* background: #FFFCE3 url(../img/dots-dark.png) repeat-x; background-attachment: fixed; background-size: 14px 366px; */ }
 
@@ -345,13 +402,107 @@ header[role="banner"] {
 		.card-amex { background-position: 50% -25px; }
 		.card-disc { background-position: 50% -75px; }
 	}
+	.vcard {
+		margin-top: rem-calc(-15);
+		h4 {
+			margin-bottom: 0;
+		}
+		.tel {
+			margin-top: rem-calc(10);
+			font-style: italic;
+		}
+	}
 }
 
+.families { 
+	padding: 0 !important; 
+	h4 { 
+		margin: 0 0 1rem 0; 
+		text-align: center; 
+		font-style: italic;
+	}
+}
+/* !Family Photos Carousel */
+.fam-photos {
+	border-top: 3px solid #000; 
+	padding: 0;
+	.person {
+		height: 200px;
+		overflow: hidden;
+		position: relative;
+		@media #{$medium-up} {
+			height: 250px;
+		}
+	}
+	h5, p, img {
+		transition: all 0.4s ease-in-out; 
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+	.overlay {
+		background: rgba(#000, .4);
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+		transition: opacity 0.3s ease-in-out;
+	}
+	.overlay-caption {
+		color: #fff;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		width: 100%;
+		transform: translateY(-50%);
+	}
+		h5,p {
+		color: $white;
+		margin: 0;
+		opacity: 0;
+	}
+	h5 {
+		font-weight: 500;
+		transform: translate3d(0, -50%, 0);
+	}
+	p {
+		transform: translate3d(0, 50%, 0);
+	}
+	.person:hover {
+		.overlay {
+			opacity: 1;
+		}
+		h5, p {
+			transform: translate3d(0, 0, 0);
+			opacity: 1;
+		}
+		img {
+			transform: scale(1.1);
+		}
+	}
+}
+
+.family {
+	header {
+		padding: 50px 15px 15px;
+		h2 {
+			margin-bottom: 0;
+		}
+		h3 {
+			font-style: italic;
+			color: #215368;
+		}
+	}
+}
 
 
 
 /* !Footer */
 .footer {
+	border-top: 1px solid #e4e4e4; 
 	padding: 30px 0; 
 	.connect {
 		float: right;

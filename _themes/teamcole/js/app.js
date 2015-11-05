@@ -43,13 +43,40 @@ $(function() {
 			zoom: {
 				enabled: true,
 				duration: 300, // don't foget to change the duration also in CSS
-				opener: function(element) {
-					return element.find('img');
+				easing: 'ease-in-out',
+				opener: function(openerElement) {
+					return openerElement.is('img') ? openerElement : openerElement.find('img');
 				}
 			}
 		});
 	});
-
+	
+	$('.fam-photos').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		infinite: false,
+// 		dots: true,
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
+	});
 	
 });
 

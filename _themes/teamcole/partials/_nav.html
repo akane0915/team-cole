@@ -1,8 +1,7 @@
-<div class="contain-to-grid">
+<div class="nav-holder contain-to-grid">
 	<nav class="top-bar" data-topbar role="navigation">
 		<div class="logo">
 			<div></div>
-<!-- 			<img src="/assets/img/logo.svg" alt="Team Cole Logo" /> -->
 		</div>
 		<ul class="title-area">
 			<li class="name show-for-sr">
@@ -12,16 +11,13 @@
 		</ul>
 		<section class="top-bar-section">
 			<ul class="right">
-<!--
-				<li>
-					<a href="{{ homepage }}">Home</a>
-				</li>
--->
+				{{ if !segment_1 }}
 				{{ nav from="/" max_depth="1" exclude="families|events" }}
-				<li>
-					<a href="#{{ title|slugify|lower }}">{{ title }}</a>
-				</li>
+				<li><a href="#{{ title|slugify|lower }}">{{ title }}</a></li>
 				{{ /nav }}
+				{{ else }}
+				<li><a href="{{ homepage }}">Home</a></li>
+				{{ endif }}
 			</ul>
 		</section>
 	</nav>

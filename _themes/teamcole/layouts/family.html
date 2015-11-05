@@ -1,0 +1,41 @@
+{{ theme:partial src="_doc_head" }}
+<body>
+	{{ theme:partial src="_header" }}
+	<div role="main" class="main">
+		<div class="row family">
+			<header>
+				{{ if alt_title }}
+					<h2>{{ alt_title }}</h2>
+				{{ else }}
+					<h2>{{ title }}</h2>
+				{{ endif }}
+				<h3>{{ date format="F Y" }}</h3>
+			</header>
+			<aside class="medium-3 medium-push-9 columns">
+				<div class="photo"><img src="{{ transform src="{ main_img }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/families/{{ title|slugify|lower }}/" }}" alt="{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }} Photo" /></div>
+			</aside>
+			<section class="medium-9 medium-pull-3 columns">
+				{{ content }}
+			</section>
+		</div>
+	</div>
+	{{ theme:partial src="_footer" }}
+	<script src="/assets/js/plugins-min.js"></script>
+	<script src="/assets/js/app-min.js"></script>
+</body>
+</html>
+
+
+
+{{#
+====================================
+  NOTES
+====================================
+
+This is the default layouts template used by all pages. If no other layout file is called then Statamic will use this file.
+
+For more information on how Statamic works and the three distinct pieces: content file, template and layout see http://statamic.com/learn/core-concepts/how-pages-are-built.
+
+The RSS link is used in the header. If you are creating an RSS feed make sure to change the title attribute. If you are not creating an RSS feed then you can delete this. For more information on the RSS Feed set up see the feed.html template.
+
+#}}

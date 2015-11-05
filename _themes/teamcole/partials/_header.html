@@ -1,5 +1,32 @@
 <header role="banner">
-  {{ theme:partial src="_nav" }}
+	{{ theme:partial src="_nav" }}
+	<div class="banner">
+		{{ if !segment_1 }}
+		<div id="scene" class="scene">
+			<div class="layer city" data-depth="0.10"></div>
+			<div class="layer screen2" data-depth="0.40"></div>
+			<div class="layer screen3" data-depth="0.50"></div>
+			<div class="layer screen1" data-depth="0.20"></div>
+			<div class="row">
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<div class="layer title" data-depth="0.20"><a href="https://donorbox.org/team-cole-team-cole-donations" class="button">Donate Now!</a></div>
+				</div>
+				<div class="small-12 medium-6 medium-pull-6 columns">
+					<div class="layer bang" data-depth="0.60"></div>
+					<div class="layer man" data-depth="0.80"></div>
+				</div>
+			</div>
+		</div>
+		{{ else }}
+		<div class="short">
+			<div class="city"></div>
+			<div class="bang"></div>
+			<div class="man"></div>
+			<div class="title"></div>
+			<a href="https://donorbox.org/team-cole-team-cole-donations" class="button small">Donate Now!</a>
+		</div>
+		{{ endif }}
+	</div>
 </header>
 
 {{# 

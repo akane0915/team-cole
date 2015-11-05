@@ -15,8 +15,25 @@ fields:
     type: status
   
   date:
-    display: Event Date
+    display: Support Date
     type: date
+  
+  main_img:
+    display: Main Image
+    type: file
+    max_files: 1
+    browse: false
+    allowed: [png, jpg, jpeg]
+    destination: assets/img/families
+    instructions:
+      below: "Add the main image here, this will also display as a thumbnail on the listing page."
+  
+  caption:
+    display: Photo Caption
+    required: false
+    type: text
+    instructions:
+      below: "Add a short photo caption."
 
   summary:
     display: Summary

@@ -1,24 +1,3 @@
-{{ get_content from="home" }}
-		<section id="{{ title|slugify|lower }}" class="banner">
-			
-			<div id="scene" class="scene">
-				<div class="layer city" data-depth="0.10"></div>
-				<div class="layer screen2" data-depth="0.40"></div>
-				<div class="layer screen3" data-depth="0.50"></div>
-				<div class="layer screen1" data-depth="0.20"></div>
-				<div class="row">
-					<div class="small-12 medium-6 medium-push-6 columns">
-						<div class="layer title" data-depth="0.20"><a href="https://donorbox.org/team-cole-team-cole-donations" class="button">Donate Now!</a></div>
-					</div>
-					<div class="small-12 medium-6 medium-pull-6 columns">
-						<div class="layer bang" data-depth="0.60"></div>
-						<div class="layer man" data-depth="0.80"></div>
-					</div>
-				</div>
-			</div>
-		</section>
-{{ /get_content }}
-
 {{ get_content from="events" }}
 {{ entries:listing show_future="true" folder="events" sort="event_date asc" limit="1" conditions="event_date:>=today" }}
 	{{ if event_date|in_future }}
@@ -44,6 +23,31 @@
 	{{ endif }}
 {{ /entries:listing }}
 {{ /get_content }}
+
+{{ entries:listing folder="families" }}
+	{{ if first }}
+	<section id="families" class="families">
+		<header>
+			<h4>Families Team Cole Has Helped</h4>
+		</header>
+		<div class="fam-photos">
+	{{ endif }}
+			<div class="person">
+				<a href="{{ url }}">
+					<img src="{{ transform src="{ main_img }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/families/{{ title|slugify|lower }}/" }}" alt="{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }} Photo" />
+					<div class="overlay">
+						<div class="overlay-caption">
+							<h5>{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }}</h5>
+							<p>{{ date format="F Y" }}</p>
+						</div>
+					</div>
+				</a>
+			</div>
+	{{ if last }}
+		</div>
+	</section>
+	{{ endif }}
+{{ /entries:listing }}
 
 {{ get_content from="about" }}
 		<section id="{{ title|slugify|lower }}" class="about">
@@ -105,39 +109,3 @@
 				</div>
 		</section>
 {{ /get_content }}
-
-<!--
-{{ get_content from="events" }}
-		<section id="{{ title|slugify|lower }}" class="events">
-				<header>
-				{{ if alt_title }}
-					<h2>{{ alt_title }}</h2>
-				{{ else }}
-					<h2>{{ title }}</h2>
-				{{ endif }}
-				</header>
-				<div class="row">
-					<div class="small-12 medium-4 columns">
-						<h3>Past Events</h3>
-						<ul>
-						{{ entries:listing folder="events" limit="5" sort_by="event_date" sort_dir="desc" }}
-						{{ if event_date|in_past }}
-							<li><a href="{{ url }}">{{ title }} <small> {{ event_date format="n/j/Y" }}</small></a></li>
-						{{ endif }}
-						{{ /entries:listing }}
-						</ul>
-					</div>
-					<div class="small-12 medium-8 columns">
-						<h3>Upcoming Events</h3>
-						<ul>
-						{{ entries:listing folder="events" sort_by="event_date" sort_dir="asc" }}
-						{{ if event_date|in_future }}
-							<li><a href="{{ url }}">{{ title }} <small> {{ event_date format="D M tS"}} @ {{ event_start }}</small></a></li>
-						{{ endif }}
-						{{ /entries:listing }}
-						</ul>
-					</div>
-				</div>
-		</section>
-{{ /get_content }}
--->

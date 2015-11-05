@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19051",
+"creatorBuild": "19076",
 "files": {
 	"\/ ~ archive\/Root\/gdform.php": {
 		"fileType": 8192,
@@ -9249,7 +9249,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/slick.js\/slick\/slick.scss",
 		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/slick.js\/css\/slick.css",
@@ -9316,6 +9316,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/layouts\/default.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_themes\/teamcole\/layouts\/family.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/layouts\/family.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9510,6 +9519,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_themes\/teamcole\/templates\/families.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/templates\/families.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_themes\/teamcole\/templates\/feed.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9692,6 +9710,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/events\/fall-fundraiser\/fall_event_logo-20151008153901-r-w500-h500-q100-m1444343941.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 280591,
+		"inputAbbreviatedPath": "\/assets\/img\/events\/fall-fundraiser\/fall_event_logo-20151008153901-r-w500-h500-q100-m1444343941.png",
+		"outputAbbreviatedPath": "\/assets\/img\/events\/fall-fundraiser\/fall_event_logo-20151008153901-r-w500-h500-q100-m1444343941.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/events\/fall-fundraiser\/fall_event_logo-r-w500-h500-q100-m1443031396.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9714,6 +9743,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/events\/fall_event_logo-20151008153901.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130904,
+		"inputAbbreviatedPath": "\/assets\/img\/events\/fall_event_logo-20151008153901.png",
+		"outputAbbreviatedPath": "\/assets\/img\/events\/fall_event_logo-20151008153901.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/events\/fall_event_logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9721,6 +9761,193 @@
 		"initialSize": 130971,
 		"inputAbbreviatedPath": "\/assets\/img\/events\/fall_event_logo.png",
 		"outputAbbreviatedPath": "\/assets\/img\/events\/fall_event_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/bennett-zadow\/Bennett-s-w300-h300-q100-m1444920745.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52807,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/bennett-zadow\/Bennett-s-w300-h300-q100-m1444920745.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/bennett-zadow\/Bennett-s-w300-h300-q100-m1444920745.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/Bennett.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37275,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/Bennett.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/Bennett.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/edgar-20151019111306.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 332722,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/edgar-20151019111306.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/edgar-20151019111306.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/edgar-canales\/edgar-20151019111306-s-w300-h300-q100-m1445278386.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94509,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/edgar-canales\/edgar-20151019111306-s-w300-h300-q100-m1445278386.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/edgar-canales\/edgar-20151019111306-s-w300-h300-q100-m1445278386.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/edgar-canales\/Edgar-s-w300-h300-q100-m1444920760.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56002,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/edgar-canales\/Edgar-s-w300-h300-q100-m1444920760.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/edgar-canales\/Edgar-s-w300-h300-q100-m1444920760.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/Edgar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77819,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/Edgar.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/Edgar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/july-2015\/Bennett-s-w300-h300-q100-m1444920745.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52807,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/july-2015\/Bennett-s-w300-h300-q100-m1444920745.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/july-2015\/Bennett-s-w300-h300-q100-m1444920745.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/june-2015\/Edgar-s-w300-h300-q100-m1444920760.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56002,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/june-2015\/Edgar-s-w300-h300-q100-m1444920760.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/june-2015\/Edgar-s-w300-h300-q100-m1444920760.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/leala-irene-edmonds\/leala-s-w300-h300-q100-m1445278268.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69668,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/leala-irene-edmonds\/leala-s-w300-h300-q100-m1445278268.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/leala-irene-edmonds\/leala-s-w300-h300-q100-m1445278268.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/leala.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101436,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/leala.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/leala.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/Madeson .jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49590,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/Madeson .jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/Madeson .jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/madeson-killops\/Madeson+-s-w300-h300-q100-m1444917776.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69665,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/madeson-killops\/Madeson+-s-w300-h300-q100-m1444917776.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/madeson-killops\/Madeson+-s-w300-h300-q100-m1444917776.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/sadie-frank\/sadie-s-w300-h300-q100-m1445278315.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72875,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/sadie-frank\/sadie-s-w300-h300-q100-m1445278315.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/sadie-frank\/sadie-s-w300-h300-q100-m1445278315.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/sadie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97606,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/sadie.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/sadie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/september-2015\/Madeson+-s-w250-h250-q100-m1444917776.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53040,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/september-2015\/Madeson+-s-w250-h250-q100-m1444917776.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/september-2015\/Madeson+-s-w250-h250-q100-m1444917776.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/september-2015\/Madeson+-s-w300-h300-q100-m1444917776.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69665,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/september-2015\/Madeson+-s-w300-h300-q100-m1444917776.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/september-2015\/Madeson+-s-w300-h300-q100-m1444917776.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/september-2015\/Madeson+-s-w400-h400-q100-m1444917776.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105464,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/september-2015\/Madeson+-s-w400-h400-q100-m1444917776.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/september-2015\/Madeson+-s-w400-h400-q100-m1444917776.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -11430,6 +11657,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/Bennett-s-w125-h125-q100-m1444920745.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13555,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/Bennett-s-w125-h125-q100-m1444920745.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/Bennett-s-w125-h125-q100-m1444920745.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/Edgar-s-w125-h125-q100-m1444920760.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13815,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/Edgar-s-w125-h125-q100-m1444920760.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/Edgar-s-w125-h125-q100-m1444920760.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/fall_event_logo-s-w125-h125-q100-m1443031396.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -11437,6 +11686,17 @@
 		"initialSize": 34143,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/fall_event_logo-s-w125-h125-q100-m1443031396.png",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/fall_event_logo-s-w125-h125-q100-m1443031396.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/Madeson+-s-w125-h125-q100-m1444917776.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17571,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/Madeson+-s-w125-h125-q100-m1444917776.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/Madeson+-s-w125-h125-q100-m1444917776.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12210,7 +12470,9 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,

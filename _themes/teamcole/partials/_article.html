@@ -15,12 +15,11 @@
       <p>Tagged with: {{ tags_url_list }}</p>
       {{ endif }}
     </header>
-
-    {{ content }}
-    
-    <footer>
-      <a href="/" class="button secondary">&larr; Back</a>
-    </footer>
+	 	<div class="row">
+	 		<div class="small-12 columns ">
+	 			{{ content }}
+			</div>
+		</div>
 </article>
 
 {{ if show_comments }}
@@ -42,3 +41,4 @@ For more information on partials see http://statamic.com/learn/theming/partials.
 There is a comments section which uses Disqus, to make this work you will need to set comments to yes in the theme.yaml file and add your Disqus short name in the same file. For more information on using Disqus comments see this post: http://garethredfern.com/article/using-disqus-with-statamic.
 
  #}}
+ 
