@@ -2,6 +2,7 @@
 title: Sadie Frank
 main_img: /assets/img/families/sadie.jpg
 summary: Sadie is a brave little girl fighting a mitochondrial disease. Team Cole joined and helped support her fight.
+caption: The only thing Sadie loves more than her blanket is her Mom.
 ---
 <p>Sadie is a brave little girl fighting a mitochondrial disease. This page is a place of encouragement, prayers, and updates.</p>
 

@@ -3,6 +3,7 @@ title: Bennett Zadow
 date: 2015-07-01
 main_img: /assets/img/families/Bennett.jpg
 summary: Bennett is another little guys that was diagnosed with Leukemia at 2 weeks old. Team Cole is helping the Zadow family reach their goal of raising $30,000 for Bennett.
+caption: Just weeks old, Bennett explores life with a special curiosity.
 ---
 <p>In 1999 Shelby and Ryan met each other through mutual friends and within a year a great friendship turned into life-long love. In 2003 they became Mr. and Mrs. Zadow. They worked hard, finished school and then eight years ago they decided it was finally time to expand their family. It took six years of procedures, tests and surgeries to realize that they were not able to have children by their own means, and thus began exploring adoption.
 </p>

@@ -82,18 +82,18 @@ a, a:hover { transition: all 0.2s ease-in-out; }
 }
 
 header[role="banner"] {
-	position: relative; 
+	position: relative;
 	z-index: 500;
 }
 
 .nav-holder {
 	border-bottom: 3px solid #000;
-	box-shadow: 0px 3px 5px hsla(0,100%,0%,0.4); 
+	box-shadow: 0px 3px 5px hsla(0,100%,0%,0.4);
 }
 
 .top-bar {
 	.name {
-		height: auto; 
+		height: auto;
 		h1 {
 			line-height: 1;
 			text-indent: -9999px;
@@ -115,23 +115,23 @@ header[role="banner"] {
 
 .top-bar-section ul li>a { text-transform: uppercase; font-weight: bold; }
 
-.logo { 
+.logo {
 	div {
 		width: 192px;
-		height: 30px; 
+		height: 30px;
 		background: transparent url(../img/logo-small.svg) no-repeat 0 0;
 		background-size: 192px 30px;
 		float: left;
 		margin: 15px;
 	}
 	@media #{$medium-up} {
-		position: absolute; 
+		position: absolute;
 		bottom: 0;
-		margin-bottom: -60px; 
-		z-index: 300; 
+		margin-bottom: -60px;
+		z-index: 300;
 		margin-left: 20px;
 		width: 120px;
-		height: 120px; 
+		height: 120px;
 		&:before {
 			content: '';
 			position: absolute;
@@ -143,14 +143,14 @@ header[role="banner"] {
 			border-radius: 0 0 100px 100px;
 			border: 3px solid #000;
 			border-top: none;
-			box-shadow: 0px 5px 5px hsla(0,100%,0%,0.4); 
+			box-shadow: 0px 5px 5px hsla(0,100%,0%,0.4);
 		}
 		div {
 			float: none;
-			position: relative; 
-			margin: 15px 0 0 15px; 
+			position: relative;
+			margin: 15px 0 0 15px;
 			width: 90px;
-			height: 90px; 
+			height: 90px;
 			background: transparent url(../img/logo.svg) no-repeat 0 0;
 			background-size: 90px 90px;
 		}
@@ -160,8 +160,8 @@ header[role="banner"] {
 .main {
 	> section {
 		position: relative;
-		border-bottom: 3px solid #000; 
-		margin: 0; 
+		border-bottom: 3px solid #000;
+		margin: 0;
 		padding: 50px 0;
 		> header {
 			position: relative;
@@ -169,11 +169,18 @@ header[role="banner"] {
 			padding-left: rem-calc(15);
 			padding-right: rem-calc(15);
 		}
-		h2 {
+		h2, h3 {
 			font-family: "tekton-pro",sans-serif;
 			font-weight: 700;
 			text-transform: uppercase;
 		}
+		.sidebar {
+			margin-top: 1rem;
+			h3 {
+				margin-bottom: .9rem;
+			}
+		}
+
 	}
 	.columns { position: relative; }
 }
@@ -185,7 +192,7 @@ header[role="banner"] {
 	position: relative;
 	background-color: #6dcff6;
 	overflow: hidden;
-	border-bottom: 3px solid #000; 
+	border-bottom: 3px solid #000;
 	.city { background: transparent url(../img/banner/city.jpg) no-repeat  50% 100%; }
 	.bang { background: transparent url(../img/banner/bang.png) no-repeat  50% 50%; background-size: contain; }
 	.man { background: transparent url(../img/banner/hero.svg) no-repeat  50% 50%; }
@@ -196,9 +203,9 @@ header[role="banner"] {
 		padding: 0;
 		margin: 0;
 		position: relative;
-		height: 500px; 
+		height: 500px;
 		.row {
-			position: absolute; top: 0; margin: 0 auto; left: 0; right: 0; 
+			position: absolute; top: 0; margin: 0 auto; left: 0; right: 0;
 			.medium-pull-6 { z-index: 1; }
 			.medium-push-6 { z-index: 10; }
 		}
@@ -210,7 +217,7 @@ header[role="banner"] {
 		.screen3 { top: auto!important; left: 0; bottom: 0; }
 		.button {
 			@include button-size($padding: $button-med);
-			display: block; 
+			display: block;
 			width: 200px;
 		}
 		@media #{$small-up} {
@@ -227,7 +234,7 @@ header[role="banner"] {
 			}
 		}
 		@media #{$medium-up} {
-			height: 400px; 
+			height: 400px;
 			.screen1, .screen2, .screen3, .screen4 { width: 360px; height: 360px; }
 			.city { width: 100%; height: 400px; background-size: 1025px 354px; }
 			.bang { width: 407px; height: 390px; margin: -60px -20px 0 0px; left: auto!important; }
@@ -242,7 +249,7 @@ header[role="banner"] {
 			}
 		}
 		@media #{$large-up} {
-			height: 500px; 
+			height: 500px;
 			.screen1, .screen2, .screen3, .screen4 { width: 480px; height: 480px; }
 			.bang { width: 543px; height: 520px; margin: -70px 0 0 -70px; }
 			.man { width: 376px; height: 480px; margin: 20px 60px 0 50px;  }
@@ -255,21 +262,21 @@ header[role="banner"] {
 	}
 	.short {
 		@include grid-row();
-		height: 100px; 
+		height: 100px;
 		position: relative;
 		>div {
 			position: absolute;
 		}
 		.button {
-			float: right; 
-			margin: 25px 10px 0 0; 
+			float: right;
+			margin: 25px 10px 0 0;
 		}
 		.city { width: 520px; height: 180px; left: -100px; bottom: -20px; background-size: 520px 180px; }
 		.bang { display: none; width: 183px; height: 166px; left: -35px; top: -32px; }
 		.man { display: none; width: 116px; height: 152px; left: 5px; top: 10px; }
 		.title { width: 192px; height: 95px; left: 10px; top: 15px; }
-		@media only screen and (max-width: 320px) { 
-			.title { width: 120px; height: 60px; top: 20px; } 
+		@media only screen and (max-width: 320px) {
+			.title { width: 120px; height: 60px; top: 20px; }
 		}
 		@media #{$medium-up} {
 			.city { left: -100px; }
@@ -281,9 +288,9 @@ header[role="banner"] {
 }
 
 
-.event { 
-	background-color: #fff; 
-	border-bottom: none !important; 
+.event {
+	background-color: #fff;
+	border-bottom: none !important;
 	.medium-4 {
 		text-align: center;
 	}
@@ -292,7 +299,7 @@ header[role="banner"] {
 	}
 	@media #{$medium-up} {
 		.event-img {
-			margin-top: -50px; 
+			margin-top: -50px;
 		}
 	}
 }
@@ -301,7 +308,7 @@ header[role="banner"] {
 .cole { background-color: #FFFCE3; /* background: #FFFCE3 url(../img/dots-dark.png) repeat-x; background-attachment: fixed; background-size: 14px 366px; */ }
 
 /* !Donations */
-.donations { 
+.donations {
 	background-color: #9addf9;
 	background: #9addf9 url(../img/burst.jpg) no-repeat 50% 0;
 	background-size: 660px 623px;
@@ -315,7 +322,7 @@ header[role="banner"] {
 		position: absolute;
 		top: 0;
 		left: 0;
-		right: 0; 
+		right: 0;
 		text-align: center;
 		width: 100%;
 		height: 375px;
@@ -347,7 +354,7 @@ header[role="banner"] {
 		z-index: 15;
 		text-align: center;
 		padding-top: 150px;
-		margin-bottom: 150px; 
+		margin-bottom: 150px;
 	}
 	@media #{$medium-up} {
 		background-size: 880px 830px;
@@ -366,7 +373,7 @@ header[role="banner"] {
 		.pow {
 			margin-top: -300px;
 			margin-left: -175px;
-			width: 880px; 
+			width: 880px;
 			height: 830px;
 			background: #9addf9 url(../img/burst.jpg) no-repeat 50% 0;
 		}
@@ -377,14 +384,14 @@ header[role="banner"] {
 		.action {
 			z-index: 5;
 			padding-top: 80px;
-			margin-bottom: 0; 
+			margin-bottom: 0;
 		}
 		.button {
 			@include button-size($padding: $button-lrg);
 		}
 	}
-	.payments { 
-		position: relative; 
+	.payments {
+		position: relative;
 		list-style-type: none;
 		margin: 0;
 		text-align: center;
@@ -393,7 +400,7 @@ header[role="banner"] {
 			width: 38px;
 			height: 25px;
 			text-indent: -9999px;
-			overflow: hidden; 
+			overflow: hidden;
 			background: transparent url(../img/payments.png) no-repeat 0 0;
 			background-size: 38px 100px;
 		}
@@ -414,17 +421,17 @@ header[role="banner"] {
 	}
 }
 
-.families { 
-	padding: 0 !important; 
-	h4 { 
-		margin: 0 0 1rem 0; 
-		text-align: center; 
+.families {
+	padding: 0 !important;
+	h4 {
+		margin: 0 0 1rem 0;
+		text-align: center;
 		font-style: italic;
 	}
 }
 /* !Family Photos Carousel */
 .fam-photos {
-	border-top: 3px solid #000; 
+	border-top: 3px solid #000;
 	padding: 0;
 	.person {
 		height: 200px;
@@ -435,7 +442,7 @@ header[role="banner"] {
 		}
 	}
 	h5, p, img {
-		transition: all 0.4s ease-in-out; 
+		transition: all 0.4s ease-in-out;
 	}
 	img {
 		width: 100%;
@@ -502,8 +509,8 @@ header[role="banner"] {
 
 /* !Footer */
 .footer {
-	border-top: 1px solid #e4e4e4; 
-	padding: 30px 0; 
+	border-top: 1px solid #e4e4e4;
+	padding: 30px 0;
 	.connect {
 		float: right;
 		li {
@@ -514,7 +521,7 @@ header[role="banner"] {
 		a {
 			display: block;
 			width: 40px;
-			line-height: 40px; 
+			line-height: 40px;
 			color: #fff;
 			text-align: center;
 			background-color: #9addf9;

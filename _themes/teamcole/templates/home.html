@@ -49,27 +49,60 @@
 	{{ endif }}
 {{ /entries:listing }}
 
-{{ get_content from="about" }}
+
+
+<!-- {{ get_content from="about" }}
 		<section id="{{ title|slugify|lower }}" class="about">
-				<header>
-					<h2>{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }}</h2>
-				</header>
 				<div class="row">
 					<div class="small-12 medium-8 columns">
+						<header>
+							<h2>{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }}</h2>
+						</header>
 						{{ content }}
 					</div>
+
+					{{ if photos }}
 					<div class="small-12 medium-4 columns">
-						{{ if photos }}
+						<h3>{{ sidebar_header }}</h3>
+						{{ sidebar_content }}
 						<ul class="small-block-grid-3 thumbs">
-							{{ photos sort_dir="desc" }}
-							<li><a href="{{ transform src="{ photo_image }" width="1000" height="1000" action="resize" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" title="{{ photo_title }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a></li>
+							{{ photos }}
+							<li><a href="board#{{ title|slugify|lower }}" ><img src="{{ transform src="{ photo_image }" width="100" height="100" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /><p>{{ photo_title }}</p></a></li>
 							{{ /photos }}
 						</ul>
-						{{ endif }}
+					</div>
+					{{ endif }}
+				</div>
+				{{ /get_content }}
+		</section> -->
+
+{{ get_content from="about" }}
+		<section id="{{ title|slugify|lower }}" class="about">
+				<div class="row">
+					<div class="small-12 medium-8 columns">
+						<header>
+							<h2>{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }}</h2>
+						</header>
+						{{ content }}
+					</div>
+
+					<div class="small-12 medium-4 columns sidebar">
+						<h3>{{ sidebar_header }}</h3>
+						{{ sidebar_content }}
+						{{ /get_content }}
+
+						{{ get_content from="board" }}
+
+						<ul class="small-block-grid-3">
+							{{ board_grid }}
+							<li><a href="board#{{ title|slugify|lower }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /><p>{{ title }}</p></a></li>
+							{{ /board_grid }}
+						</ul>
+						{{ /get_content }}
 					</div>
 				</div>
 		</section>
-{{ /get_content }}
+
 
 {{ get_content from="cole" }}
 		<section id="{{ title|slugify|lower }}" class="cole">

@@ -3,6 +3,7 @@ title: Madeson Killops
 date: 2015-09-01
 main_img: /assets/img/families/Madeson .jpg
 summary: This imaginative two year old is fighting a rare type of Leukemia with the support and love of her family and Team Cole.
+caption: Madeson loves spending time outside with her family and her pets.
 ---
 <p>Madeson Killops just turned two on June 7th of this year. Later that month, on Father’s Day, she was diagnosed with Acute Myeloid Leukemia. She is now receiving treatment at Doernbecher Children's Hospital in Portland, OR. Her parents, Kato and Ryan, along with Madeson’s loving grandparents, have been staying at the hospital and helping to keep Madeson's spirits up.
 </p>

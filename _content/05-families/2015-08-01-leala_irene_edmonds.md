@@ -3,6 +3,7 @@ title: Leala Irene Edmonds
 date: 2015-08-01
 main_img: /assets/img/families/leala.jpg
 summary: Team Cole teamed up with Leala and her family to help her fight an immune system disorder.
+caption: Leala remains happy no matter what her circumstances are.
 ---
 <p>On Sunday, December 28, 2014, Leala woke up with a stuffy nose, the poor thing had a cold. After several days she developed a tight chest cough which began to loosen after a couple days. From what we could tell the cold just had to work its way out and then she would be better. One week later, on Sunday, January 4, 2015, the cough was still quite intense and she had a fever, so we took her to the ER. She was diagnosed with Upper Left Lob Pneumonia and was prescribed antibiotics.
 </p>
