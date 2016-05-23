@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19115",
+"creatorBuild": "19127",
 "files": {
 	"\/ ~ archive\/Root\/gdform.php": {
 		"fileType": 8192,
@@ -9537,6 +9537,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_themes\/teamcole\/templates\/event.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/templates\/event.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_themes\/teamcole\/templates\/families.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9746,6 +9755,17 @@
 		"initialSize": 280591,
 		"inputAbbreviatedPath": "\/assets\/img\/events\/fall-fundraiser\/fall_event_logo-20151008153901-r-w500-h500-q100-m1445365525.png",
 		"outputAbbreviatedPath": "\/assets\/img\/events\/fall-fundraiser\/fall_event_logo-20151008153901-r-w500-h500-q100-m1445365525.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/events\/fall-fundraiser\/fall_event_logo-20151008153901-r-w500-h500-q100-m1462482701.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 280591,
+		"inputAbbreviatedPath": "\/assets\/img\/events\/fall-fundraiser\/fall_event_logo-20151008153901-r-w500-h500-q100-m1462482701.png",
+		"outputAbbreviatedPath": "\/assets\/img\/events\/fall-fundraiser\/fall_event_logo-20151008153901-r-w500-h500-q100-m1462482701.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12951,6 +12971,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/1007_4519161064437_1139418321_n-s-w125-h125-q100-m1462482734.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16747,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/1007_4519161064437_1139418321_n-s-w125-h125-q100-m1462482734.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/1007_4519161064437_1139418321_n-s-w125-h125-q100-m1462482734.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/1007_4519161064437_1139418321_n-s-w125-h125-q75-m1433432839.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12973,6 +13004,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/224562_4450205260585_80572500_n-1-s-w125-h125-q100-m1462482736.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19944,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/224562_4450205260585_80572500_n-1-s-w125-h125-q100-m1462482736.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/224562_4450205260585_80572500_n-1-s-w125-h125-q100-m1462482736.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/224562_4450205260585_80572500_n-1-s-w125-h125-q75-m1433432839.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12991,6 +13033,17 @@
 		"initialSize": 17914,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/230956_4511445951564_589353092_n-s-w125-h125-q100-m1433432839.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/230956_4511445951564_589353092_n-s-w125-h125-q100-m1433432839.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/230956_4511445951564_589353092_n-s-w125-h125-q100-m1462482736.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17911,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/230956_4511445951564_589353092_n-s-w125-h125-q100-m1462482736.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/230956_4511445951564_589353092_n-s-w125-h125-q100-m1462482736.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13083,6 +13136,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/292843_4661287619081_17527758_n-s-w125-h125-q100-m1462482737.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18566,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/292843_4661287619081_17527758_n-s-w125-h125-q100-m1462482737.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/292843_4661287619081_17527758_n-s-w125-h125-q100-m1462482737.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/292843_4661287619081_17527758_n-s-w125-h125-q100-m1462482805.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13171,6 +13235,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/3348_4526939098883_580928719_n-s-w125-h125-q100-m1462482735.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15576,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/3348_4526939098883_580928719_n-s-w125-h125-q100-m1462482735.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/3348_4526939098883_580928719_n-s-w125-h125-q100-m1462482735.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/3348_4526939098883_580928719_n-s-w125-h125-q75-m1433432839.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13189,6 +13264,17 @@
 		"initialSize": 18726,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/431579_4429443061543_1764910965_n-s-w125-h125-q100-m1433432839.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/431579_4429443061543_1764910965_n-s-w125-h125-q100-m1433432839.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/431579_4429443061543_1764910965_n-s-w125-h125-q100-m1462482737.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18546,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/431579_4429443061543_1764910965_n-s-w125-h125-q100-m1462482737.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/431579_4429443061543_1764910965_n-s-w125-h125-q100-m1462482737.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13226,6 +13312,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/46205_4450206540617_1279882279_n-s-w125-h125-q100-m1462482735.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16657,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/46205_4450206540617_1279882279_n-s-w125-h125-q100-m1462482735.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/46205_4450206540617_1279882279_n-s-w125-h125-q100-m1462482735.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/46205_4450206540617_1279882279_n-s-w125-h125-q75-m1433432839.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13244,6 +13341,17 @@
 		"initialSize": 19915,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/527270_4485539703924_414105636_n-s-w125-h125-q100-m1433432839.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/527270_4485539703924_414105636_n-s-w125-h125-q100-m1433432839.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/527270_4485539703924_414105636_n-s-w125-h125-q100-m1462482738.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19728,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/527270_4485539703924_414105636_n-s-w125-h125-q100-m1462482738.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/527270_4485539703924_414105636_n-s-w125-h125-q100-m1462482738.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13270,6 +13378,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/553953_4519160744429_575945593_n-s-w125-h125-q100-m1462482739.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16518,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/553953_4519160744429_575945593_n-s-w125-h125-q100-m1462482739.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/553953_4519160744429_575945593_n-s-w125-h125-q100-m1462482739.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/553953_4519160744429_575945593_n-s-w125-h125-q75-m1433432839.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13288,6 +13407,17 @@
 		"initialSize": 18050,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/603360_4376708823220_770029939_n-s-w125-h125-q100-m1433432839.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/603360_4376708823220_770029939_n-s-w125-h125-q100-m1433432839.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/603360_4376708823220_770029939_n-s-w125-h125-q100-m1462482739.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18072,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/603360_4376708823220_770029939_n-s-w125-h125-q100-m1462482739.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/603360_4376708823220_770029939_n-s-w125-h125-q100-m1462482739.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13336,6 +13466,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/fall_event_logo-20151008153901-s-w125-h125-q100-m1462482701.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34470,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/fall_event_logo-20151008153901-s-w125-h125-q100-m1462482701.png",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/fall_event_logo-20151008153901-s-w125-h125-q100-m1462482701.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/fall_event_logo-s-w125-h125-q100-m1443031396.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -13376,6 +13517,17 @@
 		"initialSize": 32157,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/Hexum+Headshot-s-w125-h125-q100-m1462829681.PNG",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/Hexum+Headshot-s-w125-h125-q100-m1462829681.PNG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/Holmes+Headshot-20160509142856-s-w125-h125-q100-m1462829336.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12029,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/Holmes+Headshot-20160509142856-s-w125-h125-q100-m1462829336.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/Holmes+Headshot-20160509142856-s-w125-h125-q100-m1462829336.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13530,6 +13682,17 @@
 		"initialSize": 20358,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/pok3-s-w125-h125-q100-m1445365627.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/pok3-s-w125-h125-q100-m1445365627.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/pok3-s-w125-h125-q100-m1462482803.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20607,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/pok3-s-w125-h125-q100-m1462482803.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/pok3-s-w125-h125-q100-m1462482803.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

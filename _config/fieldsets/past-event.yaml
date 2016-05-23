@@ -1,32 +1,34 @@
-title: Page with Photos
-include: meta                  # include the meta fields
+title: Past event page
+include: meta
+# hide: false
 
 fields:
   title:
-    instructions: "Enter the main page title here."
+    instructions: "Enter the main title here."
 
   main_section:
     type: section
     display: Main Content
-    instructions: "Enter your main page content here."
+    instructions:
+      below: "Enter your main content here."
 
-  _template:
-    type: hidden
-    default: page
+  money_raised:
+    display: Money Raised
+    instructions:
+      below: "Enter amount raised, e.g. $5,000."
 
   summary:
     display: Summary
-    required: true
     type: textarea
     height: 100
     instructions:
-      below: "Add a short summary here."
+      below: "Add a short summary here for the home page."
 
   content:
-    display: Page Main Content
+    display: Main Content
     type: redactor
     instructions:
-      below: "Add the main page content here."
+      below: "Add the main content here."
 
   photos:
     display: Photos
@@ -56,5 +58,3 @@ fields:
         display: Caption
         type: text
         width: 50%
-
-# This is the standard page fieldset it pulls in the meta fields and sets the template to always use the page template.

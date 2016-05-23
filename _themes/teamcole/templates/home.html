@@ -1,6 +1,5 @@
 {{ get_content from="events" }}
-{{ entries:listing show_future="true" folder="events" sort="event_date asc" limit="1" conditions="event_date:>=today" }}
-	{{ if event_date|in_future }}
+{{ entries:listing  folder="events" sort="event_date asc" limit="1"  }}
 	<section id="{{ title|slugify|lower }}" class="event">
 		<header>
 			<h2>{{ title }}</h2>
@@ -20,7 +19,6 @@
 			</div>
 		</div>
 	</section>
-	{{ endif }}
 {{ /entries:listing }}
 {{ /get_content }}
 
@@ -92,10 +90,9 @@
 						{{ /get_content }}
 
 						{{ get_content from="board" }}
-
 						<ul class="small-block-grid-3">
 							{{ board_grid }}
-							<li><a href="board#{{ title|slugify|lower }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /><p>{{ title }}</p></a></li>
+							<li><a href="board#{{ title|slugify|lower }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /><h6>{{ title }}</h6></a></li>
 							{{ /board_grid }}
 						</ul>
 						{{ /get_content }}

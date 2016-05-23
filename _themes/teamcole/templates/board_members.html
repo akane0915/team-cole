@@ -1,4 +1,4 @@
-<div role="main" class="main">
+<section role="main" class="main">
   <div class="row family">
     <header>
       {{ if alt_title }}
@@ -9,11 +9,11 @@
     </header>
 
     {{ board_grid }}
-    <section class="medium-9 columns">
+    <div class="medium-9 columns">
       <a name="{{ title|slugify|lower }}"></a>
       <h3>{{ title }}</h3>
       {{ bio }}
-    </section>
+    </div>
     <aside class="medium-3 columns">
       <div class="photo"><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/families/{{ title|slugify|lower }}/" }}" alt="{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }} Photo" /></div>
     </aside>
@@ -31,4 +31,4 @@
 
 
   </div>
-</div>
+</section>
