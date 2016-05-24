@@ -4,7 +4,7 @@ alt_title: 2015 Fall Auction
 money_raised: $47,000
 summary: 'Team Cole held its annual fundraising auction on November 14th, 2015 at digital digs of Sq1 in Portland, Oregon. The purpose of the event was to support the family of Nathalie Traller who, until recently, had been fighting ASAP (Alveolar Soft Part Sarcoma). The $47,000 in proceeds went to help the Traller family pay for the many medical bills they had accrued over Nathalie’s struggle, and also helped 11 other families selected throughout the year. '
 photos:
-  - 
+  -
     photo_image: /assets/img/gallery/pok3.jpg
     photo_title: ""
     photo_caption: ""

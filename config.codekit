@@ -6290,6 +6290,49 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/external\/sizzle\/dist\/min\/sizzle-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/external\/sizzle\/dist\/min\/sizzle.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/_themes\/teamcole\/bower_components\/jquery\/src\/ajax.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6351,6 +6394,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/ajax\/script.js",
 		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/ajax\/min\/script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/ajax\/var\/location.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/ajax\/var\/location.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/ajax\/var\/min\/location-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -6554,6 +6608,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/adjustCSS.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/adjustCSS.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/min\/adjustCSS-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/curCSS.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6587,23 +6652,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/showHide.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/showHide.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/min\/showHide-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/support.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/support.js",
 		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/min\/support-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/swap.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/swap.js",
-		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/min\/swap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -6664,23 +6729,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/var\/swap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/var\/swap.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/css\/var\/min\/swap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_themes\/teamcole\/bower_components\/jquery\/src\/data.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data.js",
 		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/min\/data-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/accepts.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/accepts.js",
-		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/min\/accepts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -6697,23 +6762,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/data_priv.js": {
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/acceptData.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/data_priv.js",
-		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/min\/data_priv-min.js",
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/acceptData.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/min\/acceptData-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/data_user.js": {
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/dataPriv.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/data_user.js",
-		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/min\/data_user-min.js",
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/dataPriv.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/min\/dataPriv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/dataUser.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/dataUser.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/data\/var\/min\/dataUser-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -6818,12 +6894,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/event\/focusin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/event\/focusin.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/event\/min\/focusin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_themes\/teamcole\/bower_components\/jquery\/src\/event\/support.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/event\/support.js",
 		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/event\/min\/support-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/event\/trigger.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/event\/trigger.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/event\/min\/trigger-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -6895,6 +6993,39 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/buildFragment.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/buildFragment.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/min\/buildFragment-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/getAll.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/getAll.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/min\/getAll-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/setGlobalEval.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/setGlobalEval.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/min\/setGlobalEval-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/support.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6912,6 +7043,39 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js",
 		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/var\/min\/rcheckableType-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/var\/rscriptType.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/var\/rscriptType.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/var\/min\/rscriptType-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/var\/rtagName.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/var\/rtagName.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/var\/min\/rtagName-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/wrapMap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/wrapMap.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/manipulation\/min\/wrapMap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7005,28 +7169,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_themes\/teamcole\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js",
-		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_themes\/teamcole\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js",
-		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -7049,12 +7191,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing\/var\/dir.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing\/var\/dir.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing\/var\/min\/dir-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js",
 		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing\/var\/min\/rneedsContext-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing\/var\/siblings.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing\/var\/siblings.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/traversing\/var\/min\/siblings-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7088,6 +7252,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/concat.js",
 		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/min\/concat-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/document.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/document.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/min\/document-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/documentElement.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/documentElement.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/min\/documentElement-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7137,6 +7323,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/rcssNum.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/rcssNum.js",
+		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/min\/rcssNum-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/rnotwhite.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -7154,17 +7351,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/slice.js",
 		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/min\/slice-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/strundefined.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/strundefined.js",
-		"outputAbbreviatedPath": "\/_themes\/teamcole\/bower_components\/jquery\/src\/var\/min\/strundefined-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -9614,6 +9800,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/slick-theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/slick-theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/slick.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/slick.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13081,6 +13285,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/292843_4661287619081_17527758_n-r-w1000-h1000-q100-m1462482737.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202328,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/292843_4661287619081_17527758_n-r-w1000-h1000-q100-m1462482737.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/292843_4661287619081_17527758_n-r-w1000-h1000-q100-m1462482737.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/292843_4661287619081_17527758_n-r-w1000-h1000-q100-m1462482805-s-w125-h125-q100-m1462482806.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13209,6 +13424,17 @@
 		"initialSize": 17986,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/292843_4661287619081_17527758_n-s-w200-h200-q100-m1445365624-s-w125-h125-q100-m1462482743.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/292843_4661287619081_17527758_n-s-w200-h200-q100-m1445365624-s-w125-h125-q100-m1462482743.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/292843_4661287619081_17527758_n-s-w200-h200-q100-m1462482737.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38853,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/292843_4661287619081_17527758_n-s-w200-h200-q100-m1462482737.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/292843_4661287619081_17527758_n-s-w200-h200-q100-m1462482737.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13631,6 +13857,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/pok3-r-w1000-h1000-q100-m1462482803.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265633,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/pok3-r-w1000-h1000-q100-m1462482803.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/pok3-r-w1000-h1000-q100-m1462482803.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/pok3-r-w1000-h1000-q100-m1462482808-s-w125-h125-q100-m1462482840.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13763,6 +14000,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/pok3-s-w200-h200-q100-m1462482803.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44019,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/pok3-s-w200-h200-q100-m1462482803.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/pok3-s-w200-h200-q100-m1462482803.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/pok3-s-w200-h200-q100-m1462482808-s-w125-h125-q100-m1462482840.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13781,6 +14029,17 @@
 		"initialSize": 17801,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/sadie-s-w125-h125-q100-m1445365540.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/sadie-s-w125-h125-q100-m1445365540.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/tc1+2-r-w1000-h1000-q100-m1462482811.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 437359,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/tc1+2-r-w1000-h1000-q100-m1462482811.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/tc1+2-r-w1000-h1000-q100-m1462482811.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13840,6 +14099,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/tc1+2-s-w125-h125-q100-m1462482811.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24695,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/tc1+2-s-w125-h125-q100-m1462482811.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/tc1+2-s-w125-h125-q100-m1462482811.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/tc1+2-s-w150-h150-q75-m1433432050-s-w125-h125-q100-m1462482750.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13858,6 +14128,17 @@
 		"initialSize": 21831,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/tc1+2-s-w150-h150-q75-m1433432839-s-w125-h125-q100-m1462482750.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/tc1+2-s-w150-h150-q75-m1433432839-s-w125-h125-q100-m1462482750.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/tc1+2-s-w200-h200-q100-m1462482811.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55034,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/tc1+2-s-w200-h200-q100-m1462482811.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/tc1+2-s-w200-h200-q100-m1462482811.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

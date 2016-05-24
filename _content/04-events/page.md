@@ -1,5 +1,5 @@
 ---
 _fieldset: page
 title: Events
-_template: page
+_default_folder_template: event
 ---

@@ -1,13 +1,36 @@
 {{ get_content from="events" }}
-{{ entries:listing  folder="events" sort="event_date asc" limit="1"  }}
 	<section id="{{ title|slugify|lower }}" class="event">
 		<header>
-			<h2>{{ title }}</h2>
+			<h2>Past Events</h2>
 		</header>
 		<div class="row">
 			<div class="small-12 medium-8 columns">
-				{{ content }}
-				<h4>{{ event_date format="l F jS, Y"}}<br />{{ event_start format="g:i A" }}{{ if event_end }} – {{ event_end format="g:i A" }}{{ endif }}</h4>
+
+					<div class="event-slider">
+						{{ entries:listing folder="events" sort_dir="desc"}}
+						<div class="content">
+							<div class="row">
+								<div class="medium-12 columns">
+									<h3>{{ alt_title }}</h3>
+								</div>
+								<div class="small-8 medium-8 columns">
+									{{ summary }}
+
+								</div>
+								<div class="small-4 medium-4 columns">
+									{{ if photos }}
+									{{ photos limit="1" }}
+									<img src="{{ photo_image }}" alt="" />
+									{{ /photos }}
+									{{ endif }}
+								</div>
+
+
+							</div>
+						</div>
+
+						{{ /entries:listing }}
+				</div>
 			</div>
 			<div class="small-12 medium-4 columns">
 				{{ if main_img }}
@@ -19,7 +42,6 @@
 			</div>
 		</div>
 	</section>
-{{ /entries:listing }}
 {{ /get_content }}
 
 {{ entries:listing folder="families" }}

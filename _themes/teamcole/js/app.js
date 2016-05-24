@@ -3,7 +3,7 @@ var navHeight = $('.navbar').height();
 $(document).foundation();
 
 $(function() {
-	
+
 	/* !Nav Links */
 	/*	----------------------------- */
 	$('.top-bar a').click(function(e) {
@@ -13,15 +13,15 @@ $(function() {
 			scrollTop: $(goto).offset().top - navHeight
 		}, 500);
 	});
-	
+
 	/* !Parallax Banner */
 	/*	----------------------------- */
 	$('#scene').parallax();
-	
+
 	/* !Lightbox */
 	/*	----------------------------- */
-	$('.thumbs').each(function() { 
-		$(this).magnificPopup({ 
+	$('.thumbs').each(function() {
+		$(this).magnificPopup({
 			delegate: 'a',
 			type: 'image',
 			preloader: true,
@@ -50,7 +50,8 @@ $(function() {
 			}
 		});
 	});
-	
+
+	// SLICK SLIDER FAMILY PHOTOS
 	$('.fam-photos').slick({
 		slidesToShow: 4,
 		slidesToScroll: 1,
@@ -77,7 +78,14 @@ $(function() {
 			}
 		]
 	});
-	
+
+	// SLICK SLIDER PAST EVENTS
+	$('.event-slider').slick( {
+		autoplay: false,
+		dots: true,
+		speed: 500,
+		autoplaySpeed: 10000,
+		cssEase: 'ease'
+	});
+
 });
-
-

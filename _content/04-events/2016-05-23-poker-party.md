@@ -8,14 +8,11 @@ photos:
     photo_image: /assets/img/gallery/292843_4661287619081_17527758_n.jpg
     photo_title: ""
     photo_caption: ""
+  - 
+    photo_image: /assets/img/gallery/tc1 2.jpg
+    photo_title: ""
+    photo_caption: ""
 ---
-
-
-
-
-
-
-
 <!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG></o:AllowPNG>
@@ -51,7 +48,7 @@ photos:
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"></m:mathFont>
    <m:brkBin m:val="before"></m:brkBin>
-   <m:brkBinSub m:val="&#45;-"></m:brkBinSub>
+   <m:brkBinSub m:val="--"></m:brkBinSub>
    <m:smallFrac m:val="off"></m:smallFrac>
    <m:dispDef></m:dispDef>
    <m:lMargin m:val="0"></m:lMargin>
