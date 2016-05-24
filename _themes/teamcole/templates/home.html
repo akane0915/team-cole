@@ -1,13 +1,12 @@
-{{ get_content from="events" }}
+{{ get_content from="past-events" }}
 	<section id="{{ title|slugify|lower }}" class="event">
-		<header>
-			<h2>Past Events</h2>
-		</header>
 		<div class="row">
 			<div class="small-12 medium-8 columns">
-
+				<header>
+					<h2>Events</h2>
+				</header>
 					<div class="event-slider">
-						{{ entries:listing folder="events" sort_dir="desc"}}
+						{{ entries:listing folder="past-events" sort_dir="desc"}}
 						<div class="content">
 							<div class="row">
 								<div class="medium-12 columns">
@@ -20,18 +19,29 @@
 								<div class="small-4 medium-4 columns">
 									{{ if photos }}
 									{{ photos limit="1" }}
-									<img src="{{ photo_image }}" alt="" />
+									<img src="{{ photo_image }}" alt="{{ photo_title }}" />
 									{{ /photos }}
 									{{ endif }}
 								</div>
-
-
 							</div>
 						</div>
 
 						{{ /entries:listing }}
 				</div>
 			</div>
+{{ /get_content }}
+
+{{ get_content from="upcoming-event"}}
+			<div class="small-12 medium-4 columns">
+				<h3>{{ title }}</h3>
+				<h4>{{ event_name }}</h4>
+				<p>Date: {{ event_date }}</br>
+					Start time: {{ event_start }}</br>
+					Location: {{ location }}</p>
+				{{ summary }}
+			</div>
+
+			<!-- Jay's Code -->
 			<div class="small-12 medium-4 columns">
 				{{ if main_img }}
 				<img class="event-img" src="{{ transform src="{ main_img }" width="500" height="500" action="resize" upsize="false" destination="/assets/img/events/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" />
@@ -40,6 +50,9 @@
 				<a class="button" href="{{ tickets }}">Buy Tickets Now</a>
 				{{ endif }}
 			</div>
+			<!-- end Jay's code -->
+
+
 		</div>
 	</section>
 {{ /get_content }}

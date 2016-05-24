@@ -1,1 +1,41 @@
 title: Upcoming Event
+include: meta
+
+fields:
+  title:
+    instructions: "Enter the main title here."
+
+  main_section:
+    type: section
+    display: Main Content
+    instructions:
+      below: "Enter your main content here."
+
+  event_name:
+    display: Event Name
+    type: text
+
+  event_date:
+    display: Event Date
+    type: date
+    
+  event_start:
+    display: Start Time
+    type: time
+
+  location:
+    display: Location
+    type: text
+
+  tickets:
+    display: External Link
+    type: text
+    instructions:
+      below: "Enter the URL if this event offers ticket or donation purchases."
+
+  summary:
+    display: Summary
+    type: textarea
+    height: 100
+    instructions:
+      below: "Add a short summary here."
