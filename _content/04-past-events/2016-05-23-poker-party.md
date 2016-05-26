@@ -2,14 +2,42 @@
 title: Poker Party
 alt_title: 2016 Winter Poker Party
 money_raised: $3,000
-summary: 'Team Cole hosted a poker tournament on January 8th, 2016 at Widmer Brewing in Downtown Portland, OR. The brewery generously donated the space for the event and also provided food and drinks. With three tables playing Texas Hold ‘Em and an attendance of around 40 people, this was one of the larger poker events held to date. '
+summary: Team Cole hosted a poker tournament on January 8th, 2016 at Widmer Brewing in Downtown Portland, OR. With around 40 people in attendance playing Texas Hold ‘Em, Team Cole was able to support families in the are going through trouble. Cole Hexum made a special appearance at the tournament and played with the attendees.
 photos:
   - 
-    photo_image: /assets/img/gallery/292843_4661287619081_17527758_n.jpg
+    photo_image: /assets/img/gallery/resized/IMG_8324-20160525103547.JPG
     photo_title: ""
     photo_caption: ""
   - 
-    photo_image: /assets/img/gallery/tc1 2.jpg
+    photo_image: /assets/img/gallery/resized/IMG_8402-20160525103607.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/gallery/resized/IMG_8405-20160525103614.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/gallery/resized/IMG_8414-20160525103623.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/gallery/resized/IMG_8417-20160525103635.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/gallery/resized/IMG_8426-20160525103646.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/gallery/resized/IMG_8441-20160525103705.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/gallery/resized/IMG_8994-20160525103714.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/gallery/resized/IMG_8995-20160525103723.JPG
     photo_title: ""
     photo_caption: ""
 ---
@@ -18,7 +46,6 @@ photos:
   <o:AllowPNG></o:AllowPNG>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
@@ -58,7 +85,8 @@ photos:
    <m:intLim m:val="subSup"></m:intLim>
    <m:naryLim m:val="undOvr"></m:naryLim>
   </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
+</xml><![endif]-->
+<!--[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="380">
@@ -646,7 +674,6 @@ photos:
    Name="List Table 7 Colorful Accent 6"></w:LsdException>
  </w:LatentStyles>
 </xml><![endif]-->
-
 <!--[if gte mso 10]>
 <style>
  /* Style Definitions */
@@ -672,23 +699,21 @@ table.MsoNormalTable
 	mso-hansi-theme-font:minor-latin;}
 </style>
 <![endif]-->
-
-
-
 <!--StartFragment-->
-
 <p class="MsoNormal">Team Cole hosted a poker tournament on January 8<sup>th</sup>,
 2016 at Widmer Brewing in Downtown Portland, OR. The brewery generously donated
 the space for the event and also provided food and drinks. With three tables
 playing Texas Hold ‘Em and an attendance of around 40 people, this was one of
-the larger poker events held to date. The prize table held donations such as
+the larger poker events held to date.
+</p>
+<p class="MsoNormal">The prize table held donations such as
 Blazer tickets, concert tickets, as well as a year’s supply of Widmer beer.
-Derek Hahm took home the champion’s bracelet with Cole Hexum finishing 8<sup>th</sup>
-out of 34 players. Team Cole raised over $3000 for various families with
-children fighting cancer. <o:p></o:p></p>
-
-<p class="MsoNormal"><o:p> </o:p></p>
-
-<p class="MsoNormal"><o:p> </o:p></p>
-
+Derek Hahm took home the champion’s bracelet with Cole Hexum finishing 8
+	<sup>th</sup>
+	out of 34 players. Team Cole raised over $3000 for various families with
+children fighting cancer. <o:p></o:p></p><p class="MsoNormal"><br></p>
+<p class="MsoNormal"><o:p> </o:p>
+</p>
+<p class="MsoNormal"><o:p> </o:p>
+</p>
 <!--EndFragment-->

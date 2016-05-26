@@ -5,6 +5,17 @@ fields:
   content:
     type: hidden
 
+  intro:
+    display: Board Intro
+    type: section
+
+  intro_title:
+    display: Intro Title
+
+  intro_content:
+    display: Intro Content
+    type: text
+
   board:
     display: Board Members
     type: section

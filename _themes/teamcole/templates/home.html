@@ -1,25 +1,31 @@
 {{ get_content from="past-events" }}
 	<section id="{{ title|slugify|lower }}" class="event">
+		<header>
+			<h2>Team Cole Events</h2>
+		</header>
 		<div class="row">
 			<div class="small-12 medium-8 columns">
-				<header>
-					<h2>Events</h2>
-				</header>
-					<div class="event-slider">
+				<h3>Past Events</h3>
+				<div class="event-slider">
 						{{ entries:listing folder="past-events" sort_dir="desc"}}
 						<div class="content">
 							<div class="row">
-								<div class="medium-12 columns">
-									<h3>{{ alt_title }}</h3>
-								</div>
+								<!-- <div class="medium-12 columns">
+								</div> -->
 								<div class="small-8 medium-8 columns">
-									{{ summary }}
-
+									<h4>{{ alt_title }}</h4>
+									<p>
+										{{ summary }} <a href="past-events/{{ title|slugify|lower }}" target="_blank"><span class="link">Read more >></span></a>
+									</p>
+								</br>
+								<!-- <button class="button">
+									Read more
+								</button> -->
 								</div>
 								<div class="small-4 medium-4 columns">
 									{{ if photos }}
 									{{ photos limit="1" }}
-									<img src="{{ photo_image }}" alt="{{ photo_title }}" />
+									<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ photo_image }}" alt="{{ photo_title }} width="200" height="200"" /></a>
 									{{ /photos }}
 									{{ endif }}
 								</div>
@@ -34,11 +40,15 @@
 {{ get_content from="upcoming-event"}}
 			<div class="small-12 medium-4 columns">
 				<h3>{{ title }}</h3>
-				<h4>{{ event_name }}</h4>
-				<p>Date: {{ event_date }}</br>
-					Start time: {{ event_start }}</br>
-					Location: {{ location }}</p>
-				{{ summary }}
+				<div class="event-content">
+					<h4>{{ event_name }}</h4>
+					<p>Event Date: {{ event_date }}</br>
+						Start time: {{ event_start }}</br>
+						Location: {{ location }}</p>
+					<p>
+						{{ summary }}
+					</p>
+				</div>
 			</div>
 
 			<!-- Jay's Code -->
@@ -78,6 +88,7 @@
 			</div>
 	{{ if last }}
 		</div>
+
 	</section>
 	{{ endif }}
 {{ /entries:listing }}
@@ -118,18 +129,18 @@
 						</header>
 						{{ content }}
 					</div>
+					{{ /get_content }}
 
-					<div class="small-12 medium-4 columns sidebar">
-						<h3>{{ sidebar_header }}</h3>
-						{{ sidebar_content }}
-						{{ /get_content }}
+					{{ get_content from="board" }}
+					<div class="small-12 medium-4 columns board">
+						<h3>{{ intro_title }}</h3>
 
-						{{ get_content from="board" }}
 						<ul class="small-block-grid-3">
 							{{ board_grid }}
 							<li><a href="board#{{ title|slugify|lower }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /><h6>{{ title }}</h6></a></li>
 							{{ /board_grid }}
 						</ul>
+						<p>{{ intro_content }} <a href="#"><span class="link">Read more >></span></a></p>
 						{{ /get_content }}
 					</div>
 				</div>

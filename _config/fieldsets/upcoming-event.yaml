@@ -18,7 +18,7 @@ fields:
   event_date:
     display: Event Date
     type: date
-    
+
   event_start:
     display: Start Time
     type: time
@@ -39,3 +39,6 @@ fields:
     height: 100
     instructions:
       below: "Add a short summary here."
+
+  content:
+    type:hidden
