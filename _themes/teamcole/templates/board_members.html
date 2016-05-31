@@ -1,5 +1,4 @@
 <section role="main" class="main board-members">
-  <div class="row family">
     <header>
       {{ if alt_title }}
         <h2>{{ alt_title }}</h2>
@@ -9,14 +8,17 @@
     </header>
 
     {{ board_grid }}
-    <div class="medium-9 columns">
-      <a name="{{ title|slugify|lower }}"></a>
-      <h3>{{ title }}</h3>
-      {{ bio }}
+    <div class="row board-member">
+      <aside class="medium-2 medium-push-10 columns">
+        <div class="photo"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/families/{{ title|slugify|lower }}/" }}" alt="{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }} Photo" /></div>
+      </aside>
+      <div class="medium-10 medium-pull-2 columns">
+        <a name="{{ title|slugify|lower }}"></a>
+        <h3>{{ title }}</h3>
+        {{ bio }}
+      </div>
+
     </div>
-    <aside class="medium-3 columns">
-      <div class="photo"><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/families/{{ title|slugify|lower }}/" }}" alt="{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }} Photo" /></div>
-    </aside>
     {{ /board_grid }}
 
     <!-- {{ board_grid }}

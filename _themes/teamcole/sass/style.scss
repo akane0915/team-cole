@@ -361,7 +361,7 @@ header[role="banner"] {
 			margin-top: 18px;
 		}
 		p {
-			margin-top: 0px;
+			margin-top: 4px;
 			margin-bottom: 5px;
 		}
 		ul {
@@ -564,11 +564,27 @@ header[role="banner"] {
 			margin-bottom: 0;
 		}
 		h3 {
-			font-style: italic;
+			// font-style: italic;
 			color: #215368;
 		}
 	}
 }
+
+.board-members {
+	header {
+		padding: 50px 15px 15px;
+		h2 {
+			margin-bottom: 0;
+		}
+	}
+	.board-member {
+		margin-bottom: 45px;
+		@media #{$medium-up} {
+			margin-bottom: 15px;
+		}
+	}
+}
+
 
 
 

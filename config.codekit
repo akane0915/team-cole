@@ -10106,6 +10106,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/families\/brian-hexum\/Hexum+Headshot+Square-s-w300-h300-q100-m1464734878.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58441,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/brian-hexum\/Hexum+Headshot+Square-s-w300-h300-q100-m1464734878.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/brian-hexum\/Hexum+Headshot+Square-s-w300-h300-q100-m1464734878.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/families\/brian-hexum\/Hexum+Headshot-20160510133358-s-w200-h200-q100-m1462912438.PNG": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10172,6 +10183,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/families\/derek-hahm\/Derek+Hahm+Headshot+Square-s-w300-h300-q100-m1464734815.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49194,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/derek-hahm\/Derek+Hahm+Headshot+Square-s-w300-h300-q100-m1464734815.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/derek-hahm\/Derek+Hahm+Headshot+Square-s-w300-h300-q100-m1464734815.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/families\/edgar-20151019111306.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10234,6 +10256,17 @@
 		"initialSize": 77819,
 		"inputAbbreviatedPath": "\/assets\/img\/families\/Edgar.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/families\/Edgar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/families\/john-holmes\/Holmes+Headshot+Square-s-w300-h300-q100-m1464734891.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49268,
+		"inputAbbreviatedPath": "\/assets\/img\/families\/john-holmes\/Holmes+Headshot+Square-s-w300-h300-q100-m1464734891.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/families\/john-holmes\/Holmes+Headshot+Square-s-w300-h300-q100-m1464734891.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10964,6 +10997,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/gallery\/about\/Derek Hahm Headshot Square.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13286,
+		"inputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Derek Hahm Headshot Square.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Derek Hahm Headshot Square.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/gallery\/about\/Derek+Hahm+Head+Shot-r-w1000-h1000-q100-m1462829667.PNG": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10993,6 +11037,17 @@
 		"initialSize": 60214,
 		"inputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Derek+Hahm+Head+Shot-s-w200-h200-q100-m1462829667.PNG",
 		"outputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Derek+Hahm+Head+Shot-s-w200-h200-q100-m1462829667.PNG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/gallery\/about\/Hexum Headshot Square.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35892,
+		"inputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Hexum Headshot Square.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Hexum Headshot Square.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -11059,6 +11114,17 @@
 		"initialSize": 71727,
 		"inputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Hexum+Headshot-20160509143503-s-w200-h200-q100-m1462829702.PNG",
 		"outputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Hexum+Headshot-20160509143503-s-w200-h200-q100-m1462829702.PNG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/gallery\/about\/Holmes Headshot Square.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72432,
+		"inputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Holmes Headshot Square.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/gallery\/about\/Holmes Headshot Square.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14077,6 +14143,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/Derek+Hahm+Headshot+Square-s-w125-h125-q100-m1464734815.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13927,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/Derek+Hahm+Headshot+Square-s-w125-h125-q100-m1464734815.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/Derek+Hahm+Headshot+Square-s-w125-h125-q100-m1464734815.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/Edgar-s-w125-h125-q100-m1444920760.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14110,6 +14187,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/Hexum+Headshot+Square-s-w125-h125-q100-m1464734878.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15304,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/Hexum+Headshot+Square-s-w125-h125-q100-m1464734878.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/Hexum+Headshot+Square-s-w125-h125-q100-m1464734878.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/Hexum+Headshot-20160509143503-s-w125-h125-q100-m1462829702.PNG": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -14139,6 +14227,17 @@
 		"initialSize": 32157,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/Hexum+Headshot-s-w125-h125-q100-m1462829681.PNG",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/Hexum+Headshot-s-w125-h125-q100-m1462829681.PNG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/Holmes+Headshot+Square-s-w125-h125-q100-m1464734891.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11570,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/Holmes+Headshot+Square-s-w125-h125-q100-m1464734891.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/Holmes+Headshot+Square-s-w125-h125-q100-m1464734891.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
