@@ -41,4 +41,4 @@ fields:
       below: "Add a short summary here."
 
   content:
-    type:hidden
+    type: hidden

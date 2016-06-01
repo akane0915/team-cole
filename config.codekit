@@ -11822,6 +11822,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/gallery\/brian-hexum\/Hexum+Headshot+Square-s-w200-h200-q100-m1464734878.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31339,
+		"inputAbbreviatedPath": "\/assets\/img\/gallery\/brian-hexum\/Hexum+Headshot+Square-s-w200-h200-q100-m1464734878.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/gallery\/brian-hexum\/Hexum+Headshot+Square-s-w200-h200-q100-m1464734878.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/gallery\/brian-hexum\/Hexum+Headshot-20160510133358-s-w100-h100-q100-m1462912438.PNG": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -12955,6 +12966,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/gallery\/derek-hahm\/Derek+Hahm+Headshot+Square-s-w200-h200-q100-m1464734815.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26795,
+		"inputAbbreviatedPath": "\/assets\/img\/gallery\/derek-hahm\/Derek+Hahm+Headshot+Square-s-w200-h200-q100-m1464734815.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/gallery\/derek-hahm\/Derek+Hahm+Headshot+Square-s-w200-h200-q100-m1464734815.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/gallery\/Holmes Headshot-20160509142856.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13171,6 +13193,17 @@
 		"initialSize": 1.22718e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/gallery\/IMG_8995.JPG",
 		"outputAbbreviatedPath": "\/assets\/img\/gallery\/IMG_8995.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/gallery\/john-holmes\/Holmes+Headshot+Square-s-w200-h200-q100-m1464734891.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24696,
+		"inputAbbreviatedPath": "\/assets\/img\/gallery\/john-holmes\/Holmes+Headshot+Square-s-w200-h200-q100-m1464734891.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/gallery\/john-holmes\/Holmes+Headshot+Square-s-w200-h200-q100-m1464734891.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
