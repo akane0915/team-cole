@@ -328,6 +328,7 @@ header[role="banner"] {
 	border-bottom: none !important;
 	.slick-slide img {
 		margin-top: 8px;
+		margin-bottom: 15px;
 	}
 	.slick-prev:before, .slick-next:before {
   display:none;
@@ -338,10 +339,17 @@ header[role="banner"] {
 	    font-size: 10px;
 		}
   }
+	.event-slider {
+		margin-bottom: 25px;
+	}
 	@media #{$medium-up} {
 		.event-img {
 			margin-top: -50px;
 		}
+		.event-slider {
+			margin-bottom: 0;
+		}
+
 	}
 }
 
@@ -563,10 +571,6 @@ header[role="banner"] {
 		h2 {
 			margin-bottom: 0;
 		}
-		// h3 {
-		// 	// font-style: italic;
-		// 	color: #215368;
-		// }
 	}
 }
 

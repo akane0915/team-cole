@@ -2,6 +2,9 @@ title: Board Page
 include: meta
 
 fields:
+  title:
+    instructions: "Enter the main page title here."
+
   content:
     type: hidden
 
@@ -24,12 +27,13 @@ fields:
     type: grid
     starting_rows: 1
     fields:
-      title:
-        display: Name
+      photo_title:
+        display: Photo Title
         instructions:
           below: Enter name of board member.
         type: text
         width: 25%
+        required: true
       bio:
         display: Bio
         instructions:

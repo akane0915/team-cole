@@ -4,7 +4,7 @@ include: meta
 
 fields:
   title:
-    instructions: "Enter the main title here."
+    instructions: "Enter the main page title here."
 
   main_section:
     type: section
@@ -30,7 +30,7 @@ fields:
     instructions:
       below: "Add the main content here."
 
-  photos:
+  event_photos:
     display: Photos
     type: grid
     starting_rows: 1
@@ -42,7 +42,7 @@ fields:
         max_files: 1
         display: Photo
         allowed: [png, gif, jpg, jpeg]
-        destination: assets/img/gallery
+        destination: assets/img/gallery/
         browse: true
         resize:
           width: 1000

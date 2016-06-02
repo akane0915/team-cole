@@ -10,11 +10,11 @@
       {{ content }}
     </div>
     <div class="small-12 medium-4 columns">
-      {{ if photos }}
+      {{ if event_photos }}
       <ul class="small-block-grid-3 thumbs">
-        {{ photos sort_dir="desc" }}
-        <li><a href="{{ transform src="{ photo_image }" width="1000" height="1000" action="resize" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" title="{{ photo_title }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a></li>
-        {{ /photos }}
+        {{ event_photos sort_dir="asc" }}
+        <li><a href="{{ transform src="{ photo_image }" width="1000" height="1000" action="smart" upsize="false" _transform_destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" title="{{ photo_title }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a></li>
+      {{ /event_photos }}
       </ul>
       {{ endif }}
     </div>
