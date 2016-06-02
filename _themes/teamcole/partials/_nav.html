@@ -16,7 +16,9 @@
 				<li><a href="#{{ title|slugify|lower }}">{{ title }}</a></li>
 				{{ /nav }}
 				{{ else }}
-				<li><a href="{{ homepage }}">Home</a></li>
+				<div >
+					<li><a href="{{ homepage }}">Home</a></li>
+				</div>
 				{{ endif }}
 			</ul>
 		</section>
