@@ -96,7 +96,7 @@
 							<li><a href="board#{{ photo_title|slugify|lower }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /><h6>{{ photo_title }}</h6></a></li>
 							{{ /board_grid }}
 						</ul>
-						<p>{{ intro_content }} <a href="#"><span class="link">Read more >></span></a></p>
+						<p>{{ intro_content }} <a href="/board"><span class="link">Read more >></span></a></p>
 						{{ /get_content }}
 					</div>
 				</div>

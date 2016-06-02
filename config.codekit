@@ -14814,6 +14814,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/IMG_8994-r-w1000-h1000-q100-m1464826778.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 512920,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8994-r-w1000-h1000-q100-m1464826778.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8994-r-w1000-h1000-q100-m1464826778.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/IMG_8994-r-w1000-q100-m1464823123.JPG": {
 		"fileType": 16384,
 		"ignore": 0,

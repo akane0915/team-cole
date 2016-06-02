@@ -10,17 +10,19 @@
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 		</ul>
 		<section class="top-bar-section">
-			<ul class="right">
-				{{ if !segment_1 }}
-				{{ nav from="/" max_depth="1" exclude="upcoming-event|board|events-old" }}
-				<li><a href="#{{ title|slugify|lower }}">{{ title }}</a></li>
-				{{ /nav }}
+			<div class="menu">
+				<ul class="right">
+					{{ if !segment_1 }}
+					{{ nav from="/" max_depth="1" exclude="upcoming-event|board|events-old" }}
+					<li><a href="#{{ title|slugify|lower }}">{{ title }}</a></li>
+					{{ /nav }}
+				</ul>
+			</div>
 				{{ else }}
-				<div >
+				<ul class="right">
 					<li><a href="{{ homepage }}">Home</a></li>
-				</div>
+				</ul>
 				{{ endif }}
-			</ul>
 		</section>
 	</nav>
 </div>

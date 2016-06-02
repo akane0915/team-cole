@@ -6,13 +6,13 @@ $(function() {
 
 	/* !Nav Links */
 	/*	----------------------------- */
-	$('.top-bar > a').click(function(e) {
-		e.preventDefault();
-		var goto = $(this).attr('href');
-		$('html, body').animate({
-			scrollTop: $(goto).offset().top - navHeight
-		}, 500);
-	});
+	// $('.top-bar-section .menu a').click(function(e) {
+	// 	e.preventDefault();
+	// 	var goto = $(this).attr('href');
+	// 	$('html, body').animate({
+	// 		scrollTop: $(goto).offset().top - navHeight
+	// 	}, 500);
+	// });
 
 	/* !Parallax Banner */
 	/*	----------------------------- */
@@ -81,10 +81,10 @@ $(function() {
 
 	// SLICK SLIDER PAST EVENTS
 	$('.event-slider').slick( {
-		autoplay: false,
+		autoplay: true,
 		dots: true,
 		speed: 500,
-		autoplaySpeed: 10000,
+		autoplaySpeed: 8000,
 		cssEase: 'ease'
 	});
 
