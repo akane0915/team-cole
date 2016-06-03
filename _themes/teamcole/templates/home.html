@@ -13,7 +13,7 @@
 								<div class="medium-4 medium-push-8 columns">
 									{{ if event_photos }}
 									{{ event_photos limit="1" }}
-									<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" _transform_destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a>
+									<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a>
 									{{ /event_photos }}
 									{{ endif }}
 								</div>
@@ -93,7 +93,7 @@
 
 						<ul class="small-block-grid-3">
 							{{ board_grid }}
-							<li><a href="board#{{ photo_title|slugify|lower }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /><h6>{{ photo_title }}</h6></a></li>
+							<li><a href="board#{{ photo_title|slugify|lower }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/about/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /><h6>{{ photo_title }}</h6></a></li>
 							{{ /board_grid }}
 						</ul>
 						<p>{{ intro_content }} <a href="/board"><span class="link">Read more >></span></a></p>

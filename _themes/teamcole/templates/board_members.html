@@ -10,7 +10,7 @@
     {{ board_grid }}
     <div class="row board-member">
       <aside class="medium-2 medium-push-10 columns">
-        <div class="photo"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }} Photo" /></div>
+        <div class="photo"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/about/resized/{{ title|slugify|lower }}/" }}" alt="{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }} Photo" /></div>
       </aside>
       <div class="medium-10 medium-pull-2 columns">
         <a name="{{ photo_title|slugify|lower }}"></a>

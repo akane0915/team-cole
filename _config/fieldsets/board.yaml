@@ -48,5 +48,5 @@ fields:
         instructions:
           below: Upload photo of board member.
         allowed: [png, gif, jpg, jpeg]
-        destination: assets/img/gallery/about
+        destination: assets/img/about
         width: 25%

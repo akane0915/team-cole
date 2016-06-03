@@ -6,13 +6,13 @@ $(function() {
 
 	/* !Nav Links */
 	/*	----------------------------- */
-	// $('.top-bar-section .menu a').click(function(e) {
-	// 	e.preventDefault();
-	// 	var goto = $(this).attr('href');
-	// 	$('html, body').animate({
-	// 		scrollTop: $(goto).offset().top - navHeight
-	// 	}, 500);
-	// });
+	$('.scroll').click(function(e) {
+		e.preventDefault();
+		var goto = $(this).attr('href');
+		$('html, body').animate({
+			scrollTop: $(goto).offset().top - navHeight
+		}, 500);
+	});
 
 	/* !Parallax Banner */
 	/*	----------------------------- */

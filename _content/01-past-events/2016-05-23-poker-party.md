@@ -5,7 +5,39 @@ money_raised: $3,000
 summary: Team Cole hosted a poker tournament on January 8th, 2016 at Widmer Brewing in Downtown Portland, OR. With around 40 people in attendance playing Texas Hold ‘Em, Team Cole was able to support families in the are going through trouble. Cole Hexum made a special appearance at the tournament and played with the attendees.
 event_photos:
   - 
-    photo_image: /assets/img/gallery/IMG_8994.JPG
+    photo_image: /assets/img/events/resized/IMG_8324.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/events/resized/IMG_8402.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/events/resized/IMG_8405.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/events/resized/IMG_8414.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/events/resized/IMG_8417.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/events/resized/IMG_8426.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/events/resized/IMG_8441.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/events/resized/IMG_8994.JPG
+    photo_title: ""
+    photo_caption: ""
+  - 
+    photo_image: /assets/img/events/resized/IMG_8995.JPG
     photo_title: ""
     photo_caption: ""
 ---

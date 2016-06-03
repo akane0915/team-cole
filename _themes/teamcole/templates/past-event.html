@@ -13,7 +13,7 @@
       {{ if event_photos }}
       <ul class="small-block-grid-3 thumbs">
         {{ event_photos sort_dir="asc" }}
-        <li><a href="{{ transform src="{ photo_image }" width="1000" height="1000" action="resize" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" title="{{ photo_title }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/gallery/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a></li>
+        <li><a href="{{ transform src="{ photo_image }" width="1000" height="1000" action="resize" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" title="{{ photo_title }}" ><img src="{{ transform src="{ photo_image }" width="200" height="200" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a></li>
       {{ /event_photos }}
       </ul>
       {{ endif }}
