@@ -37,7 +37,7 @@
 				<div class="event-content">
 					<h4>{{ event_name }}</h4>
 					<p>Event Date: {{ event_date }}</br>
-						Start time: {{ event_start }}</br>
+						Time: {{ event_start }}</br>
 						Location: {{ location }}</p>
 					<p>
 						{{ summary }}
@@ -56,7 +56,7 @@
 			<h4>Families Team Cole Has Helped</h4>
 		</header>
 		<div class="fam-photos">
-	{{ endif }}
+			{{ endif }}
 			<div class="person">
 				<a href="{{ url }}">
 					<img src="{{ transform src="{ main_img }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/families/{{ title|slugify|lower }}/" }}" alt="{{ if alt_title }}{{ alt_title }}{{ else }}{{ title }}{{ endif }} Photo" />

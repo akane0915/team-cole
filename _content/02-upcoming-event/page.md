@@ -2,9 +2,11 @@
 _fieldset: upcoming-event
 title: Upcoming event
 _template: page
-event_name: Summer Auction
-event_start: 12:00 PM
-event_date: 2016-05-31
+event_name: Team Cole Annual Auction
+event_start: '6:00 PM - 9:00 PM'
+event_date: 2016-11-12
 location: Portland
-summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+summary: Details Coming Soon – Save the Date!
 ---
+
+

@@ -20,8 +20,8 @@ fields:
     type: date
 
   event_start:
-    display: Start Time
-    type: time
+    display: Time
+    type: text
 
   location:
     display: Location
