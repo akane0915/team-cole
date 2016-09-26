@@ -1,23 +1,24 @@
 {{ get_content from="past-events" }}
 	<section id="{{ title|slugify|lower }}" class="event">
-		<header>
-			<h2>Team Cole Events</h2>
-		</header>
 		<div class="row">
 			<div class="medium-8 columns">
-				<h3>Past Events</h3>
+				<header>
+					<h2>Team Cole Events</h2>
+				</header>
 				<div class="event-slider">
 						{{ entries:listing folder="past-events" sort_dir="desc"}}
 						<div class="content">
 							<div class="row">
-								<div class="medium-4 medium-push-8 columns">
+								<!-- medium-push-8 -->
+								<div class="medium-4 columns">
 									{{ if event_photos }}
 									{{ event_photos limit="1" }}
 									<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a>
 									{{ /event_photos }}
 									{{ endif }}
 								</div>
-								<div class="medium-8 medium-pull-4 columns">
+<!-- medium-pull-4								 -->
+								<div class="medium-8  columns">
 									<h4>{{ alt_title }}</h4>
 									<p>
 										{{ summary }} <a href="past-events/{{ title|slugify|lower }}" target="_blank"><span class="link">Read more >></span></a>
@@ -32,13 +33,14 @@
 {{ /get_content }}
 
 {{ get_content from="upcoming-event"}}
-			<div class="small-12 medium-4 columns">
+			<div class="small-12 medium-4 columns upcoming-event">
 				<h3>{{ title }}</h3>
 				<div class="event-content">
 					<h4>{{ event_name }}</h4>
 					<p>Event Date: {{ event_date }}</br>
 						Time: {{ event_start }}</br>
-						Location: {{ location }}</p>
+						Location: {{ location }}</br>
+						Tickets: <a href="{{ tickets }}" class="link" target="_blank">team-cole.ticketleap.com/sam-day</a></p>
 					<p>
 						{{ summary }}
 					</p>
@@ -53,7 +55,7 @@
 	{{ if first }}
 	<section id="families" class="families">
 		<header>
-			<h4>Families Team Cole Has Helped</h4>
+			<h2>Families Team Cole Has Helped</h2>
 		</header>
 		<div class="fam-photos">
 			{{ endif }}

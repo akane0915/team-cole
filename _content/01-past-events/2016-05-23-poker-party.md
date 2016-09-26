@@ -43,16 +43,13 @@ event_photos:
 ---
 <p class="MsoNormal">Team Cole hosted a poker tournament on January 8<sup>th</sup>,
 2016 at Widmer Brewing in Downtown Portland, OR. The brewery generously donated
-the space for the event and also provided food and drinks. With three tables
+the space for the event and also provided food and drinks. </p><p class="MsoNormal">With three tables
 playing Texas Hold ‘Em and an attendance of around 40 people, this was one of
-the larger poker events held to date.
-</p>
-<p class="MsoNormal">The prize table held donations such as
-Blazer tickets, concert tickets, as well as a year’s supply of Widmer beer.
-Derek Hahm took home the champion’s bracelet with Cole Hexum finishing 8
+the larger poker events held to date. The prize table held donations such as
+Blazer tickets, concert tickets, as well as a year’s supply of Widmer beer. </p><p class="MsoNormal">Derek Hahm took home the champion’s bracelet with Cole Hexum finishing 8
 	<sup>th</sup>
 	out of 34 players. Team Cole raised over $3000 for various families with
-children fighting cancer. <o:p></o:p></p><p class="MsoNormal"><br></p>
+children fighting cancer.</p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal"><br></p>
 <p class="MsoNormal"><o:p> </o:p>
 </p>
 <p class="MsoNormal"><o:p> </o:p>

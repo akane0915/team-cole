@@ -72,6 +72,7 @@ h2 {
 	margin-bottom: 15px;
 }
 h3 {
+	font-family: "tekton-pro",sans-serif;
 	font-size: $h4-font-size;
 	color: #215368;
 	font-weight: 700;
@@ -91,6 +92,10 @@ a, a:hover {
 	color: #222;
 }
 
+.link {
+	color: #008CBA;
+}
+
 [class*="block-grid-"]>li {
  	padding: 0 1px 2px;
  	a {
@@ -104,6 +109,8 @@ a, a:hover {
 	 	border: 1px solid hsla(0,100%,0%,0.5);
  	}
 }
+
+// Header section
 
 header[role="banner"] {
 	position: relative;
@@ -222,6 +229,7 @@ header[role="banner"] {
 .vcard {
 	border: none; padding: 0;
 }
+
 /* !Banner */
 .banner {
 	position: relative;
@@ -322,13 +330,17 @@ header[role="banner"] {
 	}
 }
 
+// Events
 
 .event {
-	background-color: #fff;
+	background-color: #FFFCE3;
 	border-bottom: none !important;
+	h3 {
+
+	}
 	.slick-slide img {
 		margin-top: 8px;
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 	}
 	.slick-prev:before, .slick-next:before {
   display:none;
@@ -343,21 +355,123 @@ header[role="banner"] {
 		margin-bottom: 25px;
 	}
 	@media #{$medium-up} {
+		h3 {
+			margin-top: 18px;
+			margin-bottom: 22px;
+		}
 		.event-img {
 			margin-top: -50px;
 		}
 		.event-slider {
-			margin-bottom: 0;
 		}
+		margin-bottom: 0;
 
 	}
 }
 
-.link {
-	color: #008CBA;
+.past-event {
+	header {
+		padding: 0px 15px 15px;
+	}
+	h2 {
+		margin-bottom: 0;
+	}
+}
+
+.upcoming-event {
+	// background: #9ADDF9;
+	// border: 1px solid #333;
+}
+
+// Families section
+
+.families {
+	padding: 0 !important;
+	border-top: 3px solid #000;
+	background: #9addf9 url(../img/burst.jpg) no-repeat 0 0;
+	h2 {
+		margin: 50px 0 20px 0;
+	}
+}
+
+/* !Family Photos Carousel */
+.fam-photos {
+	border-top: 3px solid #000;
+	padding: 0;
+	.person {
+		height: 200px;
+		overflow: hidden;
+		position: relative;
+		@media #{$medium-up} {
+			height: 250px;
+		}
+	}
+	h5, p, img {
+		transition: all 0.4s ease-in-out;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+	.overlay {
+		background: rgba(#000, .4);
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+		transition: opacity 0.3s ease-in-out;
+	}
+	.overlay-caption {
+		color: #fff;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		width: 100%;
+		transform: translateY(-50%);
+	}
+		h5,p {
+		color: $white;
+		margin: 0;
+		opacity: 0;
+	}
+	h5 {
+		font-weight: 500;
+		transform: translate3d(0, -50%, 0);
+	}
+	p {
+		transform: translate3d(0, 50%, 0);
+	}
+	.person:hover {
+		.overlay {
+			opacity: 1;
+		}
+		h5, p {
+			transform: translate3d(0, 0, 0);
+			opacity: 1;
+		}
+		img {
+			transform: scale(1.1);
+		}
+	}
+}
+
+.family {
+	header {
+		padding: 50px 15px 15px;
+		h2 {
+			margin-bottom: 0;
+		}
+	}
+}
+
+// About / Board members
+
+.about {
+	background: #fff url(../img/toon2.png) repeat; /* background-attachment: fixed; */
 }
 .board {
-	background: #fff url(../img/toon2.png) repeat; /* background-attachment: fixed; */
 	h6 {
 		// text-transform: uppercase;
 		font-size: 1em;
@@ -378,9 +492,27 @@ header[role="banner"] {
 	}
 }
 
+.board-members {
+	header {
+		padding: 0px 15px 15px;
+		h2 {
+			margin-bottom: 0;
+		}
+	}
+	.board-member {
+		margin-bottom: 45px;
+		@media #{$medium-up} {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+/* Cole Hexum section */
+
 .cole { background-color: #FFFCE3; /* background: #FFFCE3 url(../img/dots-dark.png) repeat-x; background-attachment: fixed; background-size: 14px 366px; */ }
 
-/* !Donations */
+
+/* !Donations section */
 .donations {
 	background-color: #9addf9;
 	background: #9addf9 url(../img/burst.jpg) no-repeat 50% 0;
@@ -494,109 +626,9 @@ header[role="banner"] {
 	}
 }
 
-.families {
-	padding: 0 !important;
-	h4 {
-		margin: 0 0 1rem 0;
-		text-align: center;
-		font-style: italic;
-	}
-}
-/* !Family Photos Carousel */
-.fam-photos {
-	border-top: 3px solid #000;
-	padding: 0;
-	.person {
-		height: 200px;
-		overflow: hidden;
-		position: relative;
-		@media #{$medium-up} {
-			height: 250px;
-		}
-	}
-	h5, p, img {
-		transition: all 0.4s ease-in-out;
-	}
-	img {
-		width: 100%;
-		height: auto;
-	}
-	.overlay {
-		background: rgba(#000, .4);
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-		width: 100%;
-		height: 100%;
-		transition: opacity 0.3s ease-in-out;
-	}
-	.overlay-caption {
-		color: #fff;
-		position: absolute;
-		text-align: center;
-		top: 50%;
-		width: 100%;
-		transform: translateY(-50%);
-	}
-		h5,p {
-		color: $white;
-		margin: 0;
-		opacity: 0;
-	}
-	h5 {
-		font-weight: 500;
-		transform: translate3d(0, -50%, 0);
-	}
-	p {
-		transform: translate3d(0, 50%, 0);
-	}
-	.person:hover {
-		.overlay {
-			opacity: 1;
-		}
-		h5, p {
-			transform: translate3d(0, 0, 0);
-			opacity: 1;
-		}
-		img {
-			transform: scale(1.1);
-		}
-	}
-}
 
-.family {
-	header {
-		padding: 50px 15px 15px;
-		h2 {
-			margin-bottom: 0;
-		}
-	}
-}
 
-.past-event {
-	header {
-		padding: 0px 15px 15px;
-	}
-		h2 {
-			margin-bottom: 0;
-		}
-}
 
-.board-members {
-	header {
-		padding: 0px 15px 15px;
-		h2 {
-			margin-bottom: 0;
-		}
-	}
-	.board-member {
-		margin-bottom: 45px;
-		@media #{$medium-up} {
-			margin-bottom: 15px;
-		}
-	}
-}
 
 
 

@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19127",
+"creatorBuild": "19137",
 "files": {
 	"\/ ~ archive\/Root\/gdform.php": {
 		"fileType": 8192,
@@ -15223,6 +15223,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/IMG_8324-s-w125-h125-q100-m1464975307.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23136,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8324-s-w125-h125-q100-m1464975307.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8324-s-w125-h125-q100-m1464975307.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/IMG_8324-s-w200-h200-q100-m1464975307.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15241,6 +15252,17 @@
 		"initialSize": 277414,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8402-r-w1000-h1000-q100-m1464975791.JPG",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8402-r-w1000-h1000-q100-m1464975791.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/IMG_8402-s-w125-h125-q100-m1464975791.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19086,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8402-s-w125-h125-q100-m1464975791.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8402-s-w125-h125-q100-m1464975791.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15267,6 +15289,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/IMG_8405-s-w125-h125-q100-m1464976141.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18097,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8405-s-w125-h125-q100-m1464976141.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8405-s-w125-h125-q100-m1464976141.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/IMG_8405-s-w200-h200-q100-m1464976141.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15285,6 +15318,17 @@
 		"initialSize": 319623,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8414-r-w1000-h1000-q100-m1464976627.JPG",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8414-r-w1000-h1000-q100-m1464976627.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/IMG_8414-s-w125-h125-q100-m1464976627.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21159,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8414-s-w125-h125-q100-m1464976627.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8414-s-w125-h125-q100-m1464976627.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15311,6 +15355,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/IMG_8417-s-w125-h125-q100-m1464976639.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19409,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8417-s-w125-h125-q100-m1464976639.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8417-s-w125-h125-q100-m1464976639.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/IMG_8417-s-w200-h200-q100-m1464976639.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15329,6 +15384,17 @@
 		"initialSize": 369129,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8426-r-w1000-h1000-q100-m1464976652.JPG",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8426-r-w1000-h1000-q100-m1464976652.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/IMG_8426-s-w125-h125-q100-m1464976652.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21618,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8426-s-w125-h125-q100-m1464976652.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8426-s-w125-h125-q100-m1464976652.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15355,6 +15421,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/IMG_8441-s-w125-h125-q100-m1464976661.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15883,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8441-s-w125-h125-q100-m1464976661.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8441-s-w125-h125-q100-m1464976661.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/IMG_8441-s-w200-h200-q100-m1464976661.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15377,6 +15454,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/resized\/IMG_8994-s-w125-h125-q100-m1464976670.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17845,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8994-s-w125-h125-q100-m1464976670.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8994-s-w125-h125-q100-m1464976670.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/resized\/IMG_8994-s-w200-h200-q100-m1464976670.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15395,6 +15483,17 @@
 		"initialSize": 208625,
 		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8995-r-w1000-h1000-q100-m1464976681.JPG",
 		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8995-r-w1000-h1000-q100-m1464976681.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/resized\/IMG_8995-s-w125-h125-q100-m1464976681.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15683,
+		"inputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8995-s-w125-h125-q100-m1464976681.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/resized\/IMG_8995-s-w125-h125-q100-m1464976681.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16230,7 +16329,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "_themes\/teamcole",
 	"displayValue": "pdx-teamcole.org",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_orange"
 	},
 "projectSettings": {
@@ -16388,7 +16487,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/teamcole.dev",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

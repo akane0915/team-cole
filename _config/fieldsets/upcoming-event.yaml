@@ -17,7 +17,7 @@ fields:
 
   event_date:
     display: Event Date
-    type: date
+    type: text
 
   event_start:
     display: Time
