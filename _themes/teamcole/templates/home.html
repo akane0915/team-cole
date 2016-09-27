@@ -37,9 +37,11 @@
 				<h3>{{ title }}</h3>
 				<div class="event-content">
 					<h4>{{ event_name }}</h4>
-					<p>Event Date: {{ event_date }}</br>
+					<p>Date: {{ event_date }}</br>
 						Time: {{ event_start }}</br>
 						Location: {{ location }}</br>
+						<span class="event-address">{{ street }}</span></br>
+						<span class="event-address">{{ city }}</span></br>
 						Tickets: <a href="{{ tickets }}" class="link" target="_blank">team-cole.ticketleap.com/sam-day</a></p>
 					<p>
 						{{ summary }}

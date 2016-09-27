@@ -379,8 +379,9 @@ header[role="banner"] {
 }
 
 .upcoming-event {
-	// background: #9ADDF9;
-	// border: 1px solid #333;
+	.event-address {
+		padding-left: 4.4em;
+	}
 }
 
 // Families section

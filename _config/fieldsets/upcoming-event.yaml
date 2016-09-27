@@ -24,7 +24,15 @@ fields:
     type: text
 
   location:
-    display: Location
+    display: Location Name
+    type: text
+
+  street:
+    display: Street Address
+    type: text
+
+  city:
+    display: City, State Zip
     type: text
 
   tickets:
