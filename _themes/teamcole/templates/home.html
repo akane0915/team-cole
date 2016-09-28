@@ -9,7 +9,6 @@
 						{{ entries:listing folder="past-events" sort_dir="desc"}}
 						<div class="content">
 							<div class="row">
-								<!-- medium-push-8 -->
 								<div class="medium-4 columns">
 									{{ if event_photos }}
 									{{ event_photos limit="1" }}
@@ -17,8 +16,7 @@
 									{{ /event_photos }}
 									{{ endif }}
 								</div>
-<!-- medium-pull-4								 -->
-								<div class="medium-8  columns">
+								<div class="medium-8 columns">
 									<h4>{{ alt_title }}</h4>
 									<p>
 										{{ summary }} <a href="past-events/{{ title|slugify|lower }}" target="_blank"><span class="link">Read more >></span></a>
