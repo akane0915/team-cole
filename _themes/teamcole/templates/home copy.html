@@ -38,24 +38,9 @@
 					<p>Date: {{ event_date }}</br>
 						Time: {{ event_start }}</br>
 						Location: {{ location }}</br>
-						{{ if address_line1 }}
-						<span class="event-address">{{ address_line1 }},</span></br>
-						{{ endif }}
-						{{ if address_line2 }}
-						<span class="event-address">{{ address_line2 }},</span></br>
-						{{ endif }}
-						{{ if city }}
+						<span class="event-address">{{ street }}</span></br>
 						<span class="event-address">{{ city }}</span></br>
-						{{ endif }}
-						{{ if link_url }}
-						Tickets: <a href="{{ link_url }}" class="link" target="_blank">
-							{{ if link_name }}
-							{{ link_name }}
-							{{ else }}
-							{{ link_url }}
-							{{ endif }}
-						</a></p>
-						{{ endif }}
+						Tickets: <a href="{{ tickets }}" class="link" target="_blank">team-cole.ticketleap.com/sam-day</a></p>
 					<p>
 						{{ summary }}
 					</p>

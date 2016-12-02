@@ -27,40 +27,26 @@ fields:
     display: Location Name
     type: text
 
-  address_line1:
-    display: Address Line 1
+  street:
+    display: Street Address
     type: text
-    instructions:
-      below: "Enter Street address."
-
-  address_line2:
-    display: Address Line 2
-    type: text
-    instructions:
-      below: "Enter suite, unit, building, floor etc."
 
   city:
     display: City, State Zip
     type: text
 
-  link_url:
-    display: External Link URL
+  tickets:
+    display: External Link
     type: text
     instructions:
-      below: "Enter a URL (e.g.: http://teamcole.org)."
-
-  link_name:
-    display: External Link Name
-    type: text
-    instructions:
-      below: "Enter a display name for the external link above (e.g.: teamcole.org)."
+      below: "Enter the URL if this event offers ticket or donation purchases."
 
   summary:
     display: Summary
     type: textarea
     height: 100
     instructions:
-      below: "Add a short summary or info here."
+      below: "Add a short summary here."
 
   content:
     type: hidden
