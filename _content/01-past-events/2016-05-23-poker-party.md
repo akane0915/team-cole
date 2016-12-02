@@ -37,7 +37,7 @@ event_photos:
     photo_title: ""
     photo_caption: ""
   - 
-    photo_image: /assets/img/events/resized/IMG_8995.JPG
+    photo_image: /assets/img/events/resized/IMG_8995-20160927161652.JPG
     photo_title: ""
     photo_caption: ""
 ---
