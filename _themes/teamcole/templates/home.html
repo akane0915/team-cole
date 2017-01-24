@@ -35,9 +35,15 @@
 				<h3>{{ title }}</h3>
 				<div class="event-content">
 					<h4>{{ event_name }}</h4>
+					{{ if event_date }}
 					<p>Date: {{ event_date }}</br>
+					{{ endif }}
+						{{ if event_start }}
 						Time: {{ event_start }}</br>
+						{{ endif }}
+						{{ if location }}
 						Location: {{ location }}</br>
+						{{ endif }}
 						{{ if address_line1 }}
 						<span class="event-address">{{ address_line1 }},</span></br>
 						{{ endif }}
