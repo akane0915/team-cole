@@ -380,6 +380,7 @@ header[role="banner"] {
 
 
 .upcoming-event {
+	padding-top: 7%;
 	.event-address {
 		padding-left: 4.4em;
 	}
@@ -397,6 +398,11 @@ header[role="banner"] {
 	}
 }
 
+.date-icon img {
+	height: 90px;
+	float: left;
+	padding: 2px;
+}
 // Families section
 
 .families {

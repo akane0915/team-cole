@@ -80,12 +80,10 @@ $(function() {
 	});
 
 	// SLICK SLIDER PAST EVENTS
-	$('.event-slider').slick( {
-		autoplay: true,
-		dots: true,
-		speed: 500,
-		autoplaySpeed: 8000,
-		cssEase: 'ease'
+	$('.past-events').slick( {
+		infinite: true,
+		slidesToShow: 2,
+		slidesToScroll: 1
 	});
 
 });
