@@ -1,8 +1,72 @@
+
+{{ get_content from="upcoming-event" }}
+	<section id="{{ title|slugify|lower }}" class="event">
+		<div class="row">
+			<div class="medium-8 columns">
+				<header>
+					<h2>Upcoming Events</h2>
+				</header>
+				<div class="event-slider">
+						{{ entries:listing folder="upcoming-event" sort_dir="desc"}}
+						<div class="content">
+							<div class="row">
+								<div class="medium-4 columns">
+									{{ if event_photos }}
+									{{ event_photos limit="1" }}
+									<a href="upcoming-event/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/" }}" alt="{{ photo_title }}" /></a>
+									{{ /event_photos }}
+									{{ endif }}
+								</div>
+								<div class="medium-8 columns">
+										<h4>{{ event_name }}</h4>
+										<p>
+											{{ summary }} <a href="upcoming-events/{{ title|slugify|lower }}"><span class="link">Read more >></span></a>
+										</p>
+									</br>
+								</div>
+							</div>
+						</div>
+						{{ /entries:listing }}
+				</div>
+			</div>
+{{ /get_content }}
+
+{{ get_content from="upcoming-event"}}
+
+			<div class="small-12 medium-4 columns upcoming-event">
+				{{ entries:listing folder="upcoming-event" sort_dir="desc"}}
+				<div class="date-icon">
+					<img src="/assets/img/TC_Calendar_Icon.png" alt="Calendar Icon" />
+				</div>
+				<div class="event-content">
+					<h4>{{ event_name }}</h4>
+					{{ if event_date }}
+					<p>Date: {{ event_date }}</br>
+					{{ endif }}
+						{{ if event_start }}
+						Time: {{ event_start }}</br>
+						{{ endif }}
+						{{ if link_url }}
+						Tickets: <a href="{{ link_url }}" class="link" target="_blank">
+							{{ if link_name }}
+							{{ link_name }}
+							{{ else }}
+							{{ link_url }}
+							{{ endif }}
+						</a></p>
+						{{ endif }}
+          </div>
+				{{ /entries:listing }}
+			</div>
+		</div>
+		{{ /entries:listing }}
+		</div>
+	</section>
+
 	<section id="{{ title|slugify|lower }}" class="event">
 		<header>
 			<h2>Past Events</h2>
 		</header>
-
 		<div class="row">
 		{{ entries:listing folder="past-events" sort_dir="desc"}}
 		<div class="past-events">
@@ -26,6 +90,7 @@
 					</br>
 					</div>
 				</div>
+				{{ /entries:listing }}
 			</div>
 		</div>
 		{{ /entries:listing }}
