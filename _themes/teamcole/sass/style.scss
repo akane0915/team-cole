@@ -333,7 +333,7 @@ header[role="banner"] {
 // Events
 
 .event {
-	background-color: #FFFCE3;
+	background: transparent url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat  50% 100%;
 	border-bottom: none !important;
 	h3 {
 
@@ -378,9 +378,22 @@ header[role="banner"] {
 	}
 }
 
+
 .upcoming-event {
 	.event-address {
 		padding-left: 4.4em;
+	}
+	.upcoming-event-date-logo img {
+		max-width: 100%;
+	}
+	.upcoming-event-date-logo {
+		max-width: 80%;
+	}
+	.upcoming-event-date-logo p {
+		line-height: 1.2;
+		position: absolute;
+		top: 35px;
+		left: 47px;
 	}
 }
 
