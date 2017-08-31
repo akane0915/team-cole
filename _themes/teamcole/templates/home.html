@@ -1,39 +1,90 @@
 {{ get_content from="past-events" }}
 	<section id="{{ title|slugify|lower }}" class="event">
+		<header>
+			<h2>Past Events</h2>
+		</header>
+
 		<div class="row">
+			{{ entries:listing folder="past-events" sort_dir="desc"}}
+			<!-- <div class="event-slider"> -->
+			{{ if index == 1 }}
 			<div class="medium-4 columns">
-				<header>
-					<h2>Past Events</h2>
-				</header>
-				<div class="event-slider">
-						{{ entries:listing folder="past-events" sort_dir="desc"}}
-						<div class="content">
-							<div class="row">
-								<div class="medium-12 columns">
-									{{ if event_photos }}
-									{{ event_photos limit="1" }}
-									<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a>
-									{{ /event_photos }}
-									{{ endif }}
-								</div>
-							</div>
-							<div class="row">
-								<div class="medium-12 columns">
-									<h4>{{ alt_title }}</h4>
-									<p>
-										{{ summary }}
-									</p>
-									<p><a href="past-events/{{ title|slugify|lower }}"><span class="link">Read more >></span></a></p>
-								</br>
-								</div>
-							</div>
-						</div>
-						{{ /entries:listing }}
+				<div class="row">
+					<div class="medium-12 columns">
+						{{ if event_photos }}
+						{{ event_photos limit="1" }}
+						<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a>
+						{{ /event_photos }}
+						{{ endif }}
+					</div>
+				</div>
+				<div class="row">
+					<div class="medium-12 columns">
+						<h4>{{ alt_title }}</h4>
+						<p>
+							{{ summary }}
+						</p>
+						<p><a href="past-events/{{ title|slugify|lower }}"><span class="link">Read more >></span></a></p>
+					</br>
+					</div>
 				</div>
 			</div>
+{{ endif }}
 
 
-		</div>
+
+{{ if index == 2 }}
+			<div class="medium-4 columns">
+				<div class="row">
+					<div class="medium-12 columns">
+						{{ if event_photos }}
+						{{ event_photos limit="1" }}
+						<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a>
+						{{ /event_photos }}
+						{{ endif }}
+					</div>
+				</div>
+				<div class="row">
+					<div class="medium-12 columns">
+						<h4>{{ alt_title }}</h4>
+						<p>
+							{{ summary }}
+						</p>
+						<p><a href="past-events/{{ title|slugify|lower }}"><span class="link">Read more >></span></a></p>
+					</br>
+					</div>
+				</div>
+			</div>
+{{ endif }}
+
+{{ if index == 3 }}
+			<div class="medium-4 columns">
+				<div class="row">
+					<div class="medium-12 columns">
+						{{ if event_photos }}
+						{{ event_photos limit="1" }}
+						<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a>
+						{{ /event_photos }}
+						{{ endif }}
+					</div>
+				</div>
+				<div class="row">
+					<div class="medium-12 columns">
+						<h4>{{ alt_title }}</h4>
+						<p>
+							{{ summary }}
+						</p>
+						<p><a href="past-events/{{ title|slugify|lower }}"><span class="link">Read more >></span></a></p>
+					</br>
+					</div>
+				</div>
+			</div>
+{{ endif }}
+
+		<!-- </div> -->
+		{{ /entries:listing }}
+	</div>
+
 	</section>
 {{ /get_content }}
 

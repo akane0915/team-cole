@@ -84,7 +84,7 @@ $(function() {
 		autoplay: true,
 		dots: true,
 		speed: 500,
-		autoplaySpeed: 8000,
+		autoplaySpeed: 1000000,
 		cssEase: 'ease'
 	});
 
