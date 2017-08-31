@@ -1,26 +1,29 @@
 {{ get_content from="past-events" }}
 	<section id="{{ title|slugify|lower }}" class="event">
 		<div class="row">
-			<div class="medium-8 columns">
+			<div class="medium-4 columns">
 				<header>
-					<h2>Team Cole Events</h2>
+					<h2>Past Events</h2>
 				</header>
 				<div class="event-slider">
 						{{ entries:listing folder="past-events" sort_dir="desc"}}
 						<div class="content">
 							<div class="row">
-								<div class="medium-4 columns">
+								<div class="medium-12 columns">
 									{{ if event_photos }}
 									{{ event_photos limit="1" }}
 									<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a>
 									{{ /event_photos }}
 									{{ endif }}
 								</div>
-								<div class="medium-8 columns">
+							</div>
+							<div class="row">
+								<div class="medium-12 columns">
 									<h4>{{ alt_title }}</h4>
 									<p>
-										{{ summary }} <a href="past-events/{{ title|slugify|lower }}"><span class="link">Read more >></span></a>
+										{{ summary }}
 									</p>
+									<p><a href="past-events/{{ title|slugify|lower }}"><span class="link">Read more >></span></a></p>
 								</br>
 								</div>
 							</div>
@@ -28,45 +31,7 @@
 						{{ /entries:listing }}
 				</div>
 			</div>
-{{ /get_content }}
 
-{{ get_content from="upcoming-event"}}
-			<div class="small-12 medium-4 columns upcoming-event">
-				<h3>{{ title }}</h3>
-				<div class="event-content">
-					<h4>{{ event_name }}</h4>
-					{{ if event_date }}
-					<p>Date: {{ event_date }}</br>
-					{{ endif }}
-						{{ if event_start }}
-						Time: {{ event_start }}</br>
-						{{ endif }}
-						{{ if location }}
-						Location: {{ location }}</br>
-						{{ endif }}
-						{{ if address_line1 }}
-						<span class="event-address">{{ address_line1 }},</span></br>
-						{{ endif }}
-						{{ if address_line2 }}
-						<span class="event-address">{{ address_line2 }},</span></br>
-						{{ endif }}
-						{{ if city }}
-						<span class="event-address">{{ city }}</span></br>
-						{{ endif }}
-						{{ if link_url }}
-						Tickets: <a href="{{ link_url }}" class="link" target="_blank">
-							{{ if link_name }}
-							{{ link_name }}
-							{{ else }}
-							{{ link_url }}
-							{{ endif }}
-						</a></p>
-						{{ endif }}
-					<p>
-						{{ summary }}
-					</p>
-				</div>
-			</div>
 
 		</div>
 	</section>
