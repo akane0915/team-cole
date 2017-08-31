@@ -20,7 +20,7 @@
 					<div class="medium-12 columns">
 						<h4>{{ alt_title }}</h4>
 						<p>
-							{{ summary }}
+							{{ summary|truncate:150 }}
 						</p>
 						<p><a href="past-events/{{ title|slugify|lower }}"><span class="link">Read more >></span></a></p>
 					</br>
