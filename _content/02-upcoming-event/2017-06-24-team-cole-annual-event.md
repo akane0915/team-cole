@@ -1,7 +1,8 @@
 ---
 event_name: Team Cole Annual Auction
 event_start: '6:00 PM - 9:00 PM'
-event_date: November 5th 2016
+event_month: Nov
+event_date: 5th
 location: 'Widmer Brothers Brewing '
 summary: RSVP to john@sq1.com if interested
 tickets: https://team-cole.ticketleap.com/sam-day/

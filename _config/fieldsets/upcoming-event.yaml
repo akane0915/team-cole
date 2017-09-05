@@ -15,11 +15,17 @@ fields:
     display: Event Name
     type: text
 
+  event_month:
+    display: Event Month
+    type: text
+    instructions:
+      below: "Enter abbreviated month (i.e. "Jul")
+
   event_date:
     display: Event Date
     type: text
     instructions:
-      below: "Enter date as "Jul 20th"
+      below: "Enter date as "20th"
 
   event_start:
     display: Time

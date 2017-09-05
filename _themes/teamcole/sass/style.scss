@@ -333,11 +333,7 @@ header[role="banner"] {
 // Events
 
 .upcoming-event {
-	background: transparent url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat  50% 100%;
-	border-bottom: none !important;
-	h3 {
-
-	}
+	background: transparent url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat 90% 100%;
 	.slick-slide img {
 		margin-top: 8px;
 		margin-bottom: 25px;
@@ -384,25 +380,20 @@ header[role="banner"] {
 	.event-address {
 		padding-left: 4.4em;
 	}
-	.upcoming-event-date-logo img {
-		max-width: 100%;
-	}
 	.upcoming-event-date-logo {
-		max-width: 80%;
-	}
-	.upcoming-event-date-logo p {
-		line-height: 1.2;
+		background: transparent url(../img/events/TC_Calendar_Icon.png) no-repeat;
+		background-size: 100%;
+		height: 100px;
+		width: 90px;
 		position: absolute;
-		top: 35px;
-		left: 47px;
+	}
+	.upcoming-event-date {
+		position: relative;
+		margin: 30px auto;
+		text-align: center;
 	}
 }
 
-.date-icon img {
-	height: 90px;
-	float: left;
-	padding: 2px;
-}
 // Families section
 
 .families {
