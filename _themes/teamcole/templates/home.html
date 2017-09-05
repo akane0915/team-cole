@@ -1,6 +1,6 @@
 
 {{ get_content from="upcoming-event" }}
-	<section id="{{ title|slugify|lower }}" class="event">
+	<section id="{{ title|slugify|lower }}" class="upcoming-event">
 		<div class="row">
 			<div class="medium-7 columns">
 				<header>
@@ -60,8 +60,7 @@
 				</div>
 			</div>
 		</div>
-		{{ /entries:listing }}
-		</div>
+		{{ /get_content }}
 	</section>
 
 	<section id="{{ title|slugify|lower }}" class="event">
@@ -91,7 +90,6 @@
 					</br>
 					</div>
 				</div>
-				{{ /entries:listing }}
 			</div>
 		</div>
 		{{ /entries:listing }}
