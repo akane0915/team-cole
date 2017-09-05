@@ -4252,7 +4252,7 @@ header[role="banner"] {
         top: 15px; } }
 
 .upcoming-event {
-  background: transparent url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat 50% 100%;
+  background: red !important;
   border-bottom: none !important; }
   .upcoming-event .slick-slide img {
     margin-top: 8px;
