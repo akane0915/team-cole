@@ -4294,12 +4294,6 @@ header[role="banner"] {
       .upcoming-event .event-img {
         margin-top: -50px; } }
 
-.past-event header {
-  padding: 0px 15px 15px; }
-
-.past-event h2 {
-  margin-bottom: 0; }
-
 .upcoming-event {
   padding-top: 7%; }
   .upcoming-event .event-address {
@@ -4314,6 +4308,16 @@ header[role="banner"] {
     position: relative;
     margin: 30px auto;
     text-align: center; }
+
+.past-event header {
+  padding: 0px 15px 15px; }
+
+.past-event h2 {
+  margin-bottom: 0; }
+
+section#past-events {
+  background: url(../img/events/TC_Past_Events_BG.jpg) no-repeat 50% 100%;
+  border-bottom: none !important; }
 
 .families {
   padding: 0 !important;
