@@ -15,5 +15,3 @@ _cache/*
 _logs/*
 !_logs/index.html
 
-# Code Kit #
-config.codekit3
