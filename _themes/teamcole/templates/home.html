@@ -66,7 +66,7 @@
 	</section>
 
 {{ get_content from="past-events" }}
-	<section id="{{ title|slugify|lower }}" class="past-event">
+	<section id="{{ title|slugify|lower }}" class="past-events-section">
 		<header>
 			<h2>Past Events</h2>
 		</header>
@@ -101,7 +101,42 @@
 {{ /get_content }}
 
 
+{{ get_content from="past-events" }}
+{{ entries:listing folder="past-events" sort_dir="desc"}}
+	{{ if first }}
+	<section class="past-events-section">
+		<header>
+			<h2>Past Events</h2>
+		</header>
+		<div class="past-events">
+	{{ endif }}
 
+			<div class="past-event">
+				<div class="row">
+					<div class="medium-12 columns">
+						{{ if event_photos }}
+						{{ event_photos limit="1" }}
+						<a href="past-events/{{ title|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" /></a>
+						{{ /event_photos }}
+						{{ endif }}
+					</div>
+				</div>
+				<div class="row">
+					<div class="medium-12 columns">
+						<h4>{{ alt_title }}</h4>
+						<p>
+							{{ summary|truncate:150 }}
+						</p>
+						<p><a href="past-events/{{ title|slugify|lower }}"><span class="link">Read more >></span></a></p>
+					</br>
+					</div>
+				</div>
+		</div>
+
+		</div>
+	</section>
+{{ /entries:listing }}
+{{ /get_content }}
 
 
 

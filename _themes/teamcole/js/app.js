@@ -53,7 +53,7 @@ $(function() {
 
 	// SLICK SLIDER FAMILY PHOTOS
 	$('.fam-photos').slick({
-		slidesToShow: 4,
+		slidesToShow: 5,
 		slidesToScroll: 1,
 		infinite: false,
 // 		dots: true,
