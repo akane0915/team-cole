@@ -4563,12 +4563,6 @@
 		"oAP": "\/ ~ archive\/teamcole\/Store_files\/widget4_markup.html",
 		"oF": 0
 		},
-	"\/.gitignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.gitignore",
-		"oF": 0
-		},
 	"\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
@@ -14421,7 +14415,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_themes\/teamcole\/js\/min\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -15015,15 +15009,15 @@
 		"uL": 1
 		},
 	"\/_themes\/teamcole\/sass\/style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/style.css",
-		"oF": 2,
+		"oAP": "\/_themes\/teamcole\/css\/style.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -23811,7 +23805,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/resized\/IMG_2731-r-w1000-h1000-q100-m1504712921.JPG": {
+"\/assets\/img\/resized\/IMG_2731-r-w1000-h1000-q100-m1504712921.JPG": {
 		"ft": 16384,
 		"iS": 408817,
 		"oA": 0,
