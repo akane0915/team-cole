@@ -4563,12 +4563,6 @@
 		"oAP": "\/ ~ archive\/teamcole\/Store_files\/widget4_markup.html",
 		"oF": 0
 		},
-	"\/.gitignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.gitignore",
-		"oF": 0
-		},
 	"\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
@@ -14388,8 +14382,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/app-min.js",
-		"oF": 2,
+		"oAP": "\/_themes\/teamcole\/js\/min\/app-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -14397,7 +14391,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_themes\/teamcole\/js\/min\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -14991,15 +14985,15 @@
 		"uL": 1
 		},
 	"\/_themes\/teamcole\/sass\/style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/style.css",
-		"oF": 2,
+		"oAP": "\/_themes\/teamcole\/css\/style.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -24011,6 +24005,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/resized\/IMG_2972-s-w200-h200-q100-m1504713113.JPG": {
+		"ft": 16384,
+		"iS": 42534,
+		"oA": 0,
+		"oAP": "\/assets\/img\/resized\/IMG_2972-s-w200-h200-q100-m1504713113.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/resized\/IMG_2974-r-w1000-h1000-q100-m1466445689.JPG": {
 		"ft": 16384,
 		"iS": 279569,
@@ -24046,6 +24050,16 @@
 		"iS": 279712,
 		"oA": 0,
 		"oAP": "\/assets\/img\/resized\/IMG_2974-r-w1000-h1000-q100-m1504135921.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/resized\/IMG_2974-r-w1000-h1000-q100-m1504713113.JPG": {
+		"ft": 16384,
+		"iS": 279712,
+		"oA": 0,
+		"oAP": "\/assets\/img\/resized\/IMG_2974-r-w1000-h1000-q100-m1504713113.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -24111,6 +24125,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/resized\/IMG_2974-s-w200-h200-q100-m1504713113.JPG": {
+		"ft": 16384,
+		"iS": 45063,
+		"oA": 0,
+		"oAP": "\/assets\/img\/resized\/IMG_2974-s-w200-h200-q100-m1504713113.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/resized\/IMG_2984-r-w1000-h1000-q100-m1466445697.JPG": {
 		"ft": 16384,
 		"iS": 290357,
@@ -24146,6 +24170,16 @@
 		"iS": 290277,
 		"oA": 0,
 		"oAP": "\/assets\/img\/resized\/IMG_2984-r-w1000-h1000-q100-m1504135921.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/resized\/IMG_2984-r-w1000-h1000-q100-m1504713113.JPG": {
+		"ft": 16384,
+		"iS": 290277,
+		"oA": 0,
+		"oAP": "\/assets\/img\/resized\/IMG_2984-r-w1000-h1000-q100-m1504713113.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -24211,6 +24245,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/resized\/IMG_2984-s-w200-h200-q100-m1504713113.JPG": {
+		"ft": 16384,
+		"iS": 47329,
+		"oA": 0,
+		"oAP": "\/assets\/img\/resized\/IMG_2984-s-w200-h200-q100-m1504713113.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/resized\/IMG_3002-r-w1000-h1000-q100-m1466445707.JPG": {
 		"ft": 16384,
 		"iS": 309456,
@@ -24246,6 +24290,16 @@
 		"iS": 309379,
 		"oA": 0,
 		"oAP": "\/assets\/img\/resized\/IMG_3002-r-w1000-h1000-q100-m1504135921.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/resized\/IMG_3002-r-w1000-h1000-q100-m1504713113.JPG": {
+		"ft": 16384,
+		"iS": 309379,
+		"oA": 0,
+		"oAP": "\/assets\/img\/resized\/IMG_3002-r-w1000-h1000-q100-m1504713113.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -24306,6 +24360,16 @@
 		"iS": 47430,
 		"oA": 0,
 		"oAP": "\/assets\/img\/resized\/IMG_3002-s-w200-h200-q100-m1504135921.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/resized\/IMG_3002-s-w200-h200-q100-m1504713113.JPG": {
+		"ft": 16384,
+		"iS": 47430,
+		"oA": 0,
+		"oAP": "\/assets\/img\/resized\/IMG_3002-s-w200-h200-q100-m1504713113.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
