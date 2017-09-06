@@ -102,12 +102,13 @@
 
 
 {{ get_content from="past-events" }}
+<section id="{{ title|slugify|lower }}" class="past-events-section">
+	<header>
+		<h2>Past Events</h2>
+	</header>
 {{ entries:listing folder="past-events" sort_dir="desc"}}
 	{{ if first }}
-	<section id="{{ title|slugify|lower }}" class="past-events-section">
-		<header>
-			<h2>Past Events</h2>
-		</header>
+
 		<div class="past-events-trial">
 			{{ endif }}
 
@@ -138,9 +139,10 @@
 			<p>Test Event</p>
 		</div>
 		</div>
-	</section>
+
 	{{ endif }}
 {{ /entries:listing }}
+</section>
 {{ /get_content }}
 
 
