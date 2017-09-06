@@ -1,5 +1,5 @@
 ---
 _fieldset: page
-title: Events
+title: Past Events
 _default_folder_template: past-event
 ---
