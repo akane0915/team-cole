@@ -65,7 +65,8 @@
 		{{ /get_content }}
 	</section>
 
-	<section id="{{ title|slugify|lower }}" class="event">
+{{ get_content from="past-events" }}
+	<section id="{{ title|slugify|lower }}" class="past-event">
 		<header>
 			<h2>Past Events</h2>
 		</header>
@@ -97,6 +98,8 @@
 		{{ /entries:listing }}
 		</div>
 	</section>
+{{ /get_content }}
+
 
 
 

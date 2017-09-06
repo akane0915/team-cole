@@ -365,16 +365,6 @@ header[role="banner"] {
 	}
 }
 
-.past-event {
-	header {
-		padding: 0px 15px 15px;
-	}
-	h2 {
-		margin-bottom: 0;
-	}
-}
-
-
 .upcoming-event {
 	padding-top: 7%;
 	.event-address {
@@ -392,6 +382,21 @@ header[role="banner"] {
 		margin: 30px auto;
 		text-align: center;
 	}
+}
+
+// Past Events
+.past-event {
+	header {
+		padding: 0px 15px 15px;
+	}
+	h2 {
+		margin-bottom: 0;
+	}
+}
+
+section#past-events {
+	background: url(../img/events/TC_Past_Events_BG.jpg) no-repeat  50% 100%;
+	border-bottom: none !important;
 }
 
 // Families section
