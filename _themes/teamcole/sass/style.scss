@@ -382,6 +382,19 @@ header[role="banner"] {
 		margin: 30px auto;
 		text-align: center;
 	}
+	@media #{$small-up} {
+		.upcoming-event-header {
+			padding-left: 1rem;
+		}
+		.upcoming-event-date-content {
+			padding-left: 35%;
+		}
+	}
+	@media #{$medium-up} {
+		.upcoming-event-date-content {
+			padding-left: 10%;
+		}
+	}
 }
 
 // Past Events section
