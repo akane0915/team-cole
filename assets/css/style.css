@@ -4273,7 +4273,8 @@ header[role="banner"] {
         top: 15px; } }
 
 .upcoming-event {
-  background: transparent url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat 90% 100%; }
+  background: -webkit-gradient(linear, left top, left bottom, from(#fffce3), to(rgba(255, 252, 227, 0.6))), url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat 90% 100%;
+  background: linear-gradient(#fffce3, rgba(255, 252, 227, 0.6)), url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat 90% 100%; }
   .upcoming-event .slick-slide img {
     margin-top: 8px;
     margin-bottom: 25px; }
@@ -4294,28 +4295,43 @@ header[role="banner"] {
       .upcoming-event .event-img {
         margin-top: -50px; } }
 
-.upcoming-event {
-  padding-top: 7%; }
-  .upcoming-event .event-address {
-    padding-left: 4.4em; }
+.upcoming-event .upcoming-event-date-content h4 {
+  margin-bottom: 0; }
+
+.upcoming-event .upcoming-event-date-logo {
+  background: transparent url(../img/events/TC_Calendar_Icon.png) no-repeat;
+  background-size: 100%;
+  height: 90px;
+  width: 85px;
+  position: absolute;
+  margin-left: 25%; }
+
+.upcoming-event .upcoming-event-date {
+  position: relative;
+  margin: 30px auto;
+  text-align: center;
+  font-family: "tekton-pro",sans-serif;
+  padding-top: 12%; }
+  .upcoming-event .upcoming-event-date p {
+    text-transform: uppercase;
+    margin: 0;
+    line-height: .4; }
+  .upcoming-event .upcoming-event-date h5 {
+    font-weight: 400; }
+
+@media only screen {
+  .upcoming-event .upcoming-event-header {
+    padding-left: 1rem; }
+  .upcoming-event .upcoming-event-date-content {
+    padding-left: 35%; }
   .upcoming-event .upcoming-event-date-logo {
-    background: transparent url(../img/events/TC_Calendar_Icon.png) no-repeat;
-    background-size: 100%;
-    height: 100px;
-    width: 90px;
-    position: absolute; }
-  .upcoming-event .upcoming-event-date {
-    position: relative;
-    margin: 30px auto;
-    text-align: center; }
-  @media only screen {
-    .upcoming-event .upcoming-event-header {
-      padding-left: 1rem; }
-    .upcoming-event .upcoming-event-date-content {
-      padding-left: 35%; } }
-  @media only screen and (min-width: 45.7857142857em) {
-    .upcoming-event .upcoming-event-date-content {
-      padding-left: 10%; } }
+    margin-left: 0; } }
+
+@media only screen and (min-width: 45.7857142857em) {
+  .upcoming-event .upcoming-event-date-content {
+    padding-left: 1%; }
+  .upcoming-event .upcoming-event-date-logo {
+    margin-left: 5%; } }
 
 .past-event header {
   padding: 0px 15px 15px; }

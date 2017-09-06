@@ -22,9 +22,8 @@
 								</div>
 								<div class="medium-6 columns">
 										<h4>{{ event_name }}</h4>
-										<p>
-											{{ summary }} <a href="upcoming-event/{{ event_name|slugify|lower }}"><span class="link">Read more >></span></a>
-										</p>
+										<p>{{ summary|truncate:300 }}</p>
+										<p><a href="upcoming-event/{{ title|slugify|lower }}"><span class="link">Read more >></span></a></p>
 									</br>
 								</div>
 							</div>
@@ -42,7 +41,7 @@
 						<div class="medium-4 columns">
 							<div class="upcoming-event-date-logo">
 								<div class="upcoming-event-date">
-									{{ event_month }}
+									<p>{{ event_month }}</p>
 									<h5>{{ event_date }}</h5>
 								</div>
 							</div>
@@ -62,8 +61,8 @@
 				</div>
 			</div>
 		</div>
-		{{ /get_content }}
 	</section>
+{{ /get_content }}
 
 {{ get_content from="past-events" }}
 	<section id="{{ title|slugify|lower }}" class="past-event">

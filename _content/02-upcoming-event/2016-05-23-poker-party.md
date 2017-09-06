@@ -1,4 +1,5 @@
 ---
+title: Poker Party
 event_name: Poker Party
 event_start: '6:00 PM - 9:00 PM'
 event_month: May
