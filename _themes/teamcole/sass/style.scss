@@ -393,12 +393,17 @@ header[role="banner"] {
 	h2 {
 		margin-bottom: 0;
 	}
+	p.summary-text{
+		padding-right: 2.3em;
+	}
 }
 
 section#past-events {
 	background: url(../img/events/TC_Past_Events_BG.jpg) no-repeat  50% 100%;
 	border-bottom: none !important;
 }
+
+
 
 // Families section
 
