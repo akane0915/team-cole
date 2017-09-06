@@ -53,7 +53,7 @@ $(function() {
 
 	// SLICK SLIDER FAMILY PHOTOS
 	$('.fam-photos').slick({
-		slidesToShow: 5,
+		slidesToShow: 4,
 		slidesToScroll: 1,
 		infinite: false,
 // 		dots: true,
@@ -80,10 +80,11 @@ $(function() {
 	});
 
 	// SLICK SLIDER PAST EVENTS
-	$('.past-events').slick( {
+	$('.past-events-trial').slick( {
 		infinite: true,
 		slidesToShow: 2,
-		slidesToScroll: 1
+		slidesToScroll: 1,
+		dots: true
 	});
 
 });
