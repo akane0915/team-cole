@@ -82,7 +82,7 @@ $(function() {
 	// SLICK SLIDER PAST EVENTS
 	$('.past-events-trial').slick( {
 		infinite: true,
-		slidesToShow: 2,
+		slidesToShow: 3,
 		slidesToScroll: 1,
 		dots: true
 	});
