@@ -77,16 +77,16 @@
 {{ /get_content }}
 
 {{ get_content from="past-events" }}
-<section id="{{ title|slugify|lower }}" class="past-events-section">
+<section id="past-events" class="past-events-section">
 	<header>
 		<h2>Past Events</h2>
 	</header>
-	<div class="row">
+	<div class="row past-events-slider-container">
 		{{ entries:listing folder="past-events" sort_dir="desc"}}
 		{{ if first }}
-		<div class="past-events-trial">
+		<div class="past-events">
 			{{ endif }}
-			<div class="past-event-trial">
+			<div class="past-event">
 				<div class="row">
 					<div class="medium-12 columns">
 						{{ if event_photos }}
@@ -110,9 +110,6 @@
 				</div>
 			</div>
 			{{ if last }}
-			<div class="test-event">
-				<p>Test Event</p>
-			</div>
 		</div>
 		{{ endif }}
 		{{ /entries:listing }}
