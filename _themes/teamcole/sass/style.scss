@@ -147,6 +147,12 @@ header[role="banner"] {
 
 .top-bar-section ul li>a { text-transform: uppercase; font-weight: bold; }
 
+.top-bar-section ul li a {
+	@media #{$small-only} {
+		color: $white;
+	}
+}
+
 .logo {
 	div {
 		width: 192px;
