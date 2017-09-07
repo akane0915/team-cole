@@ -4255,6 +4255,9 @@ header[role="banner"] {
   background: linear-gradient(#fffce3, rgba(255, 252, 227, 0.6)), url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat 90% 100%; }
   .upcoming-event .event-address {
     padding-left: 4.4em; }
+  .upcoming-event .event-content .row {
+    margin: 3% 0 3% 0;
+    min-height: 90px; }
   .upcoming-event .upcoming-event-date-content h4 {
     margin-bottom: 0; }
   .upcoming-event .upcoming-event-date-logo {
@@ -4275,7 +4278,8 @@ header[role="banner"] {
       margin: 0;
       line-height: .4; }
     .upcoming-event .upcoming-event-date h5 {
-      font-weight: 400; }
+      font-weight: 400;
+      color: #576D3E; }
   @media only screen {
     .upcoming-event .upcoming-event-header {
       padding-left: 1rem; }
@@ -4305,8 +4309,17 @@ header[role="banner"] {
 .past-events-section p.summary-text {
   padding-right: 2.3em; }
 
+@media only screen and (max-width: 45.7142857143em) {
+  .past-events-section .past-events-slider-container {
+    padding: 0 1em; } }
+
+@media only screen and (min-width: 45.7857142857em) and (max-width: 73.1428571429em) {
+  .past-events-section .past-events-slider-container {
+    padding: 0 1em; } }
+
 section#past-events {
   background: url(../img/events/TC_Past_Events_BG.jpg) no-repeat 50% 100%;
+  background-size: cover;
   border-bottom: none !important; }
 
 .families {
