@@ -4252,7 +4252,9 @@ header[role="banner"] {
         top: 15px; } }
 
 .upcoming-event {
-  background: linear-gradient(#fffce3, rgba(255, 252, 227, 0.6)), url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat 90% 100%; }
+  background: linear-gradient(#fffce3, rgba(255, 252, 227, 0.6)), url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat;
+  background-position: bottom;
+  background-size: 100%; }
   .upcoming-event .event-address {
     padding-left: 4.4em; }
   .upcoming-event .event-content .row {
