@@ -4286,14 +4286,14 @@ header[role="banner"] {
     .upcoming-event .upcoming-event-header {
       padding-left: 1rem; }
     .upcoming-event .upcoming-event-date-content {
-      padding-left: 35%; }
+      padding-left: 40%; }
     .upcoming-event .upcoming-event-date-logo {
       margin-left: 0; } }
   @media only screen and (min-width: 45.7857142857em) {
     .upcoming-event {
       margin-bottom: 0; }
       .upcoming-event .upcoming-event-date-content {
-        padding-left: 1%; }
+        padding-left: 6%; }
       .upcoming-event .upcoming-event-date-logo {
         margin-left: 5%; }
       .upcoming-event h3 {
