@@ -80,7 +80,7 @@ $(function() {
 	});
 
 	// SLICK SLIDER PAST EVENTS
-	$('.past-events-trial').slick( {
+	$('.past-events').slick( {
 		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
@@ -88,6 +88,7 @@ $(function() {
 		arrows: false
 	});
 
+	// SLICK SLIDER UPCOMING EVENTS
 	$('.event-slider').slick( {
 		infinite: true,
 		slidesToShow: 1,
