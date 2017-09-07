@@ -14412,8 +14412,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_themes\/teamcole\/js\/min\/app-min.js",
-		"oF": 0,
+		"oAP": "\/assets\/js\/app-min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
@@ -28463,18 +28463,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/min\/app-min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/app-min-min-min.js",
-		"oF": 0,
+		"oAP": "\/assets\/js\/min\/app-min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
