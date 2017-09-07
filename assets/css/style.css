@@ -4309,6 +4309,14 @@ header[role="banner"] {
 .past-events-section p.summary-text {
   padding-right: 2.3em; }
 
+@media only screen and (max-width: 45.7142857143em) {
+  .past-events-section .past-events-slider-container {
+    padding: 0 1em; } }
+
+@media only screen and (min-width: 45.7857142857em) and (max-width: 73.1428571429em) {
+  .past-events-section .past-events-slider-container {
+    padding: 0 1em; } }
+
 section#past-events {
   background: url(../img/events/TC_Past_Events_BG.jpg) no-repeat 50% 100%;
   background-size: cover;

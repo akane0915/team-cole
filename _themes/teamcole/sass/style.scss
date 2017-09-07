@@ -411,6 +411,16 @@ header[role="banner"] {
 	p.summary-text{
 		padding-right: 2.3em;
 	}
+	@media #{$small-only} {
+		.past-events-slider-container {
+			padding: 0 1em;
+		}
+	}
+	@media #{$medium-only} {
+		.past-events-slider-container {
+			padding: 0 1em;
+		}
+	}
 }
 
 section#past-events {
@@ -418,6 +428,8 @@ section#past-events {
 	background-size: cover;
 	border-bottom: none !important;
 }
+
+
 
 
 
