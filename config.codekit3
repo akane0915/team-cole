@@ -14610,8 +14610,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_themes\/teamcole\/js\/min\/app-min.js",
-		"oF": 0,
+		"oAP": "\/assets\/js\/app-min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
@@ -17481,6 +17481,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/events\/TC_Past_Events_BG.jpg": {
+		"ft": 16384,
+		"iS": 101286,
+		"oA": 0,
+		"oAP": "\/assets\/img\/events\/TC_Past_Events_BG.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/events\/TC_Upcoming_Events_BG.jpg": {
+		"ft": 16384,
+		"iS": 17179,
+		"oA": 0,
+		"oAP": "\/assets\/img\/events\/TC_Upcoming_Events_BG.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/img\/families\/#kickASPS.png": {

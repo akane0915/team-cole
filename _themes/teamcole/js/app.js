@@ -98,14 +98,14 @@ $(function() {
 				}
 			},
 			{
-				breakpoint: 800,
+				breakpoint: 960,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 1
 				}
 			},
 			{
-				breakpoint: 580,
+				breakpoint: 660,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1
