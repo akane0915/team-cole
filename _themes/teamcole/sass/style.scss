@@ -373,8 +373,12 @@ header[role="banner"] {
 	}
 
 	@media #{$small-up} {
+		#upcoming-event-img {
+			width:100%
+		}
 		.upcoming-event-header {
 			padding-left: 1rem;
+			text-align: center;
 		}
 		.upcoming-event-date-content {
 			padding-left: 40%;
@@ -443,6 +447,11 @@ section#past-events {
 	background: #9addf9 url(../img/burst.jpg) no-repeat 0 0;
 	h2 {
 		margin: 50px 0 20px 0;
+	}
+	@media #{$small-only} {
+		header {
+			text-align: center;
+		}
 	}
 }
 
@@ -525,6 +534,11 @@ section#past-events {
 
 .about {
 	background: #fff url(../img/toon2.png) repeat; /* background-attachment: fixed; */
+	@media #{$small-only} {
+		header {
+			text-align: center;
+		}
+	}
 }
 .board {
 	h6 {
@@ -532,6 +546,11 @@ section#past-events {
 		font-size: 1em;
 		color: $light-blue;
 		// font-weight: bold;
+	}
+	@media #{$small-only} {
+		h3 {
+			text-align: center;
+		}
 	}
 	@media #{$medium-up}{
 		h3 {
@@ -564,7 +583,13 @@ section#past-events {
 
 /* Cole Hexum section */
 
-.cole { background-color: #FFFCE3; /* background: #FFFCE3 url(../img/dots-dark.png) repeat-x; background-attachment: fixed; background-size: 14px 366px; */ }
+.cole { background-color: #FFFCE3; /* background: #FFFCE3 url(../img/dots-dark.png) repeat-x; background-attachment: fixed; background-size: 14px 366px; */
+	@media #{$small-only} {
+		header {
+			text-align: center;
+		}
+	}
+}
 
 
 /* !Donations section */

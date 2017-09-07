@@ -4283,8 +4283,11 @@ header[role="banner"] {
       font-weight: 400;
       color: #576D3E; }
   @media only screen {
+    .upcoming-event #upcoming-event-img {
+      width: 100%; }
     .upcoming-event .upcoming-event-header {
-      padding-left: 1rem; }
+      padding-left: 1rem;
+      text-align: center; }
     .upcoming-event .upcoming-event-date-content {
       padding-left: 40%; }
     .upcoming-event .upcoming-event-date-logo {
@@ -4330,6 +4333,9 @@ section#past-events {
   background: #9addf9 url(../img/burst.jpg) no-repeat 0 0; }
   .families h2 {
     margin: 50px 0 20px 0; }
+  @media only screen and (max-width: 45.7142857143em) {
+    .families header {
+      text-align: center; } }
 
 /* !Family Photos Carousel */
 .fam-photos {
@@ -4390,10 +4396,17 @@ section#past-events {
 .about {
   background: #fff url(../img/toon2.png) repeat;
   /* background-attachment: fixed; */ }
+  @media only screen and (max-width: 45.7142857143em) {
+    .about header {
+      text-align: center; } }
 
 .board h6 {
   font-size: 1em;
   color: #008CBA; }
+
+@media only screen and (max-width: 45.7142857143em) {
+  .board h3 {
+    text-align: center; } }
 
 @media only screen and (min-width: 45.7857142857em) {
   .board h3 {
@@ -4419,6 +4432,9 @@ section#past-events {
 .cole {
   background-color: #FFFCE3;
   /* background: #FFFCE3 url(../img/dots-dark.png) repeat-x; background-attachment: fixed; background-size: 14px 366px; */ }
+  @media only screen and (max-width: 45.7142857143em) {
+    .cole header {
+      text-align: center; } }
 
 /* !Donations section */
 .donations {
