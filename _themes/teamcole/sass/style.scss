@@ -5,6 +5,7 @@ $cole-blue: #6dcff6;
 $light-blue: #008CBA;
 $dark-blue: #215368;
 $dark-text: #222;
+$green: #576D3E;
 
 @font-face {
 	font-family: 'icons';
@@ -334,38 +335,13 @@ header[role="banner"] {
 
 .upcoming-event {
 	background:  linear-gradient(rgba(255,252,227, 1.6), rgba(255,252,227, 0.6)), url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat 90% 100%;
-	.slick-slide img {
-		margin-top: 8px;
-		margin-bottom: 25px;
+	.event-address {
+		padding-left: 4.4em;
 	}
-	.slick-prev:before, .slick-next:before {
-  display:none;
+	.event-content .row {
+		margin: 3% 0 3% 0;
+		min-height: 90px;
 	}
-	.slick-dots li {
-	margin: 0;
-  	button:before {
-	    font-size: 10px;
-		}
-  }
-	.event-slider {
-		margin-bottom: 25px;
-	}
-	@media #{$medium-up} {
-		h3 {
-			margin-top: 18px;
-			margin-bottom: 22px;
-		}
-		.event-img {
-			margin-top: -50px;
-		}
-		.event-slider {
-		}
-		margin-bottom: 0;
-
-	}
-}
-
-.upcoming-event {
 	.upcoming-event-date-content h4 {
 		margin-bottom: 0;
 	}
@@ -390,6 +366,7 @@ header[role="banner"] {
 		}
 		h5 {
 			font-weight: 400;
+			color: $green;
 		}
 	}
 
@@ -411,6 +388,14 @@ header[role="banner"] {
 		.upcoming-event-date-logo {
 			margin-left: 5%;
 		}
+		h3 {
+			margin-top: 18px;
+			margin-bottom: 22px;
+		}
+		.event-img {
+			margin-top: -50px;
+		}
+		margin-bottom: 0;
 	}
 }
 

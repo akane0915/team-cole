@@ -6,7 +6,7 @@ event_month: Nov
 event_date: 5th
 location: 'Widmer Brothers Brewing '
 summary: RSVP to john@sq1.com if interested
-tickets: https://team-cole.ticketleap.com/sam-day/
+link_url: https://team-cole.ticketleap.com/sam-day/
 address_line1: 2nd Floor Banquet Room
 address_line2: 929 N Russel St.
 city: Portland, OR 97227

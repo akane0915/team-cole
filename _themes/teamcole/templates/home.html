@@ -9,27 +9,37 @@
 		<div class="row">
 			<div class="medium-7 columns">
 
-				<div class="event-slider">
-						{{ entries:listing folder="upcoming-event" sort_dir="desc"}}
-						<div class="content">
-							<div class="row">
-								<div class="medium-6 columns">
-									{{ if event_photos }}
-									{{ event_photos limit="1" }}
-									<a href="upcoming-event/{{ event_name|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/" }}" alt="{{ photo_title }}" /></a>
-									{{ /event_photos }}
-									{{ endif }}
-								</div>
-								<div class="medium-6 columns">
-										<h4>{{ event_name }}</h4>
-										<p>{{ summary|truncate:300 }}</p>
-										<p><a href="upcoming-event/{{ title|slugify|lower }}"><span class="link">Read more >></span></a></p>
-									</br>
-								</div>
-							</div>
+				{{ entries:listing folder="upcoming-event" sort_dir="asc" limit="1" sort_by="date"}}
+				<div class="content">
+					<div class="row">
+						<div class="medium-6 columns">
+							{{ if event_photos }}
+							{{ event_photos limit="1" }}
+							<a href="upcoming-event/{{ event_name|slugify|lower }}" target="_blank"><img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/" }}" alt="{{ photo_title }}" /></a>
+							{{ /event_photos }}
+							{{ endif }}
 						</div>
-						{{ /entries:listing }}
+						<div class="medium-6 columns">
+								<h4>{{ event_name }}:</h4>
+								Date: {{ event_month }} {{ event_date }}<br>
+								Time: {{ event_start }}<br>
+					      Location: {{ location }}<br>
+					      <span class="event-address">{{ address_line1 }}</span>
+								<br>
+					      <span class="event-address">{{ address_line2 }}</span>
+								<br>
+					      <span class="event-address">{{ city }}</span>
+								<br>
+								<br>
+					      {{ summary }}
+								{{if link_url}}
+					      <a href="{{ link_url }}" class="link" target="_blank">Click here for more details.</a>
+								{{ endif}}
+							</br>
+						</div>
+					</div>
 				</div>
+				{{ /entries:listing }}
 			</div>
 {{ /get_content }}
 
@@ -49,12 +59,14 @@
 						<div class="medium-8 columns upcoming-event-date-content">
 							<h4>{{ event_name }}</h4>
 							{{ if location }}
-								Location: {{ location }}
+								Location: {{ location }}<br>
 							{{ endif }}
 							{{ if event_start }}
-							<p>Time: {{ event_start }}
+							Time: {{ event_start }}<br>
 							{{ endif }}
-							</p>
+							{{ if summary }}
+							{{summary}}<br>
+							{{ endif }}
 						</div>
 					</div>
 					{{ /entries:listing }}
