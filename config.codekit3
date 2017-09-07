@@ -9258,6 +9258,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_content\/01-past-events\/2017-01-24-2017-winter-poker-party.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_content\/01-past-events\/2017-01-24-2017-winter-poker-party.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_content\/01-past-events\/fields.yaml": {
 		"ft": 8192,
 		"oA": 2,
@@ -14412,8 +14430,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/app-min.js",
-		"oF": 2,
+		"oAP": "\/_themes\/teamcole\/js\/min\/app-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -15022,8 +15040,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/style.css",
-		"oF": 2,
+		"oAP": "\/_themes\/teamcole\/css\/style.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -28463,8 +28481,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/app-min.js",
-		"oF": 2,
+		"oAP": "\/assets\/js\/min\/app-min-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
