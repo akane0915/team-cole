@@ -427,6 +427,10 @@ header[role="banner"] {
 		padding-right: 2.3em;
 	}
 
+.past-event-title {
+	margin-top: 1em;
+}
+
 	@media #{$small-only} {
 		.past-events-slider-container {
 			padding: 0 1em;
