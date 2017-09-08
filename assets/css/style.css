@@ -4320,6 +4320,9 @@ header[role="banner"] {
 .past-events-section p.summary-text {
   padding-right: 2.3em; }
 
+.past-events-section .past-event-title {
+  margin-top: 1em; }
+
 @media only screen and (max-width: 45.7142857143em) {
   .past-events-section .past-events-slider-container {
     padding: 0 1em; }
