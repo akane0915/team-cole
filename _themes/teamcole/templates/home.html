@@ -15,7 +15,7 @@
 						<div class="medium-6 columns">
 							{{ if event_photos }}
 							{{ event_photos limit="1" }}
-							<a href="upcoming-event/{{ event_name|slugify|lower }}" target="_blank"><img id="upcoming-event-img" src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/" }}" alt="{{ photo_title }}" /></a>
+							<img id="upcoming-event-img" src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/" }}" alt="{{ photo_title }}" />
 							{{ /event_photos }}
 							{{ endif }}
 						</div>
