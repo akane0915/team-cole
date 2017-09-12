@@ -11,7 +11,6 @@ $(function() {
 	$('.scroll').click(function(e) {
 		e.preventDefault();
 		var goto = $(this).attr('href');
-		console.log(screenWidth);
 		if (screenWidth < 733) {
 			$('html, body').animate({
 				scrollTop: $(goto).offset().top - drowDownMenuHeight

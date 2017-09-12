@@ -359,7 +359,7 @@ header[role="banner"] {
 		height: 90px;
 		width: 85px;
 		position: absolute;
-		margin-left: 25%;
+		margin-top: 5px;
 	}
 	.upcoming-event-date {
 		position: relative;
@@ -382,6 +382,10 @@ header[role="banner"] {
 		#upcoming-event-img {
 			width:100%
 		}
+		h4.upcoming-event-name-left {
+			padding-top: 1em;
+			margin-top: 1em;
+		}
 		.upcoming-event-header {
 			padding-left: 1rem;
 			text-align: center;
@@ -394,8 +398,13 @@ header[role="banner"] {
 		}
 	}
 	@media #{$medium-up} {
+		h4.upcoming-event-name-left {
+			padding-top: 0;
+			margin-top: 0;
+		}
 		.upcoming-event-date-content {
-			padding-left: 6%;
+			padding-left: 4.5%;
+			padding-right: 2.5%;
 		}
 		.upcoming-event-date-logo {
 			margin-left: 5%;
@@ -411,6 +420,11 @@ header[role="banner"] {
 			margin-top: -50px;
 		}
 		margin-bottom: 0;
+	}
+	@media #{$medium-only} {
+		.upcoming-event-date-content {
+			padding-left: 12%;
+		}
 	}
 }
 
