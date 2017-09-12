@@ -4272,7 +4272,7 @@ header[role="banner"] {
     height: 90px;
     width: 85px;
     position: absolute;
-    margin-left: 25%; }
+    margin-top: 5px; }
   .upcoming-event .upcoming-event-date {
     position: relative;
     margin: 30px auto;
@@ -4286,12 +4286,18 @@ header[role="banner"] {
     .upcoming-event .upcoming-event-date h5 {
       font-weight: 400;
       color: #576D3E; }
+  .upcoming-event h4.upcoming-event-name-left {
+    padding: 0;
+    margin: 0; }
   @media only screen {
     .upcoming-event #upcoming-event-img {
       width: 100%; }
     .upcoming-event .upcoming-event-header {
       padding-left: 1rem;
       text-align: center; }
+    .upcoming-event .upcoming-event-name-left {
+      padding-top: 1em;
+      margin-top: 1em; }
     .upcoming-event .upcoming-event-date-content {
       padding-left: 40%; }
     .upcoming-event .upcoming-event-date-logo {
@@ -4300,7 +4306,8 @@ header[role="banner"] {
     .upcoming-event {
       margin-bottom: 0; }
       .upcoming-event .upcoming-event-date-content {
-        padding-left: 6%; }
+        padding-left: 4.5%;
+        padding-right: 2.5%; }
       .upcoming-event .upcoming-event-date-logo {
         margin-left: 5%; }
       .upcoming-event .upcoming-event-header {
@@ -4310,6 +4317,9 @@ header[role="banner"] {
         margin-bottom: 22px; }
       .upcoming-event .event-img {
         margin-top: -50px; } }
+  @media only screen and (min-width: 45.7857142857em) and (max-width: 73.1428571429em) {
+    .upcoming-event .upcoming-event-date-content {
+      padding-left: 12%; } }
 
 .past-events-section header {
   padding: 0px 15px 15px; }
