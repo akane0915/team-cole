@@ -20,7 +20,7 @@
 							{{ endif }}
 						</div>
 						<div class="medium-6 columns">
-								<h4 class="upcoming-event-name-left">{{ event_name }}:</h4>
+								<h4>{{ event_name }}:</h4>
 								Date: {{ event_month }} {{ event_date }}<br>
 								Time: {{ event_start }}<br>
 					      Location: {{ location }}<br>
@@ -48,7 +48,7 @@
 				<div class="event-content">
 					{{ entries:listing from="upcoming-event" limit="3" sort_by="date"}}
 					<div class="row">
-						<div class="medium-3 columns event-date-logo-column">
+						<div class="medium-4 columns">
 							<div class="upcoming-event-date-logo">
 								<div class="upcoming-event-date">
 									<p>{{ event_month }}</p>
@@ -56,7 +56,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="medium-9 columns upcoming-event-date-content">
+						<div class="medium-8 columns upcoming-event-date-content">
 							<h4>{{ event_name }}</h4>
 							{{ if location }}
 								Location: {{ location }}<br>
