@@ -12,7 +12,7 @@
 		<section class="top-bar-section">
 			<ul class="right">
 				{{ if !segment_1 }}
-				{{ nav from="/" max_depth="1" exclude="events|upcoming-event|board|events-old" }}
+				{{ nav from="/" max_depth="1" exclude="board|events-old" }}
 				<li><a class="scroll" href="#{{ title|slugify|lower }}">{{ title }}</a></li>
 				{{ /nav }}
 				{{ else }}
