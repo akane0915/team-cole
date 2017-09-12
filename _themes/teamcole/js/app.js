@@ -1,4 +1,6 @@
 var navHeight = $('.navbar').height();
+var drowDownMenuHeight = $('.drop-down-menu').height();
+var screenWidth = screen.width;
 
 $(document).foundation();
 
@@ -9,9 +11,16 @@ $(function() {
 	$('.scroll').click(function(e) {
 		e.preventDefault();
 		var goto = $(this).attr('href');
-		$('html, body').animate({
-			scrollTop: $(goto).offset().top - navHeight
-		}, 500);
+		console.log(screenWidth);
+		if (screenWidth < 733) {
+			$('html, body').animate({
+				scrollTop: $(goto).offset().top - drowDownMenuHeight
+			}, 500);
+		} else {
+			$('html, body').animate({
+				scrollTop: $(goto).offset().top - navHeight
+			}, 500);
+		}
 	});
 
 	/* !Parallax Banner */

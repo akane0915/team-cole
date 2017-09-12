@@ -10,7 +10,7 @@
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 		</ul>
 		<section class="top-bar-section">
-			<ul class="right">
+			<ul class="right drop-down-menu">
 				{{ if !segment_1 }}
 				{{ nav from="/" max_depth="1" exclude="board|events-old" }}
 				<li><a class="scroll" href="#{{ title|slugify|lower }}">{{ title }}</a></li>

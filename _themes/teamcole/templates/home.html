@@ -33,7 +33,7 @@
 								<br>
 					      {{ summary }}
 								{{if link_url}}
-					      <a href="{{ link_url }}" class="link" target="_blank">Click here for more details.</a>
+					      <a href="{{ link_url }}" class="link">Click here for more details.</a>
 								{{ endif}}
 							</br>
 						</div>
@@ -91,7 +91,7 @@
 					<div class="medium-12 columns">
 						{{ if event_photos }}
 						{{ event_photos limit="1" }}
-						<a href="past-events/{{ title|slugify|lower }}" target="_blank">
+						<a href="past-events/{{ title|slugify|lower }}">
 							<img src="{{ transform src="{ photo_image }" width="300" height="300" action="smart" upsize="false" destination="/assets/img/events/resized/{{ title|slugify|lower }}/" }}" alt="{{ photo_title }}" />
 						</a>
 						{{ /event_photos }}
