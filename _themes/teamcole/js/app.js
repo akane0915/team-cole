@@ -1,4 +1,6 @@
 var navHeight = $('.navbar').height();
+var drowDownMenuHeight = $('.drop-down-menu').height();
+var screenWidth = screen.width;
 
 $(document).foundation();
 
@@ -9,9 +11,15 @@ $(function() {
 	$('.scroll').click(function(e) {
 		e.preventDefault();
 		var goto = $(this).attr('href');
-		$('html, body').animate({
-			scrollTop: $(goto).offset().top - navHeight
-		}, 500);
+		if (screenWidth < 733) {
+			$('html, body').animate({
+				scrollTop: $(goto).offset().top - drowDownMenuHeight
+			}, 500);
+		} else {
+			$('html, body').animate({
+				scrollTop: $(goto).offset().top - navHeight
+			}, 500);
+		}
 	});
 
 	/* !Parallax Banner */
@@ -80,12 +88,47 @@ $(function() {
 	});
 
 	// SLICK SLIDER PAST EVENTS
-	$('.event-slider').slick( {
-		autoplay: true,
+	$('.past-events').slick( {
+		infinite: false,
+		slidesToShow: 3,
+		slidesToScroll: 1,
 		dots: true,
-		speed: 500,
-		autoplaySpeed: 8000,
-		cssEase: 'ease'
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true,
+					arrows: false
+				}
+			},
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 660,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+
+	// SLICK SLIDER UPCOMING EVENTS
+	$('.event-slider').slick( {
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		arrows: false
 	});
 
 });

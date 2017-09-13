@@ -5,6 +5,7 @@ $cole-blue: #6dcff6;
 $light-blue: #008CBA;
 $dark-blue: #215368;
 $dark-text: #222;
+$green: #576D3E;
 
 @font-face {
 	font-family: 'icons';
@@ -145,6 +146,12 @@ header[role="banner"] {
 }
 
 .top-bar-section ul li>a { text-transform: uppercase; font-weight: bold; }
+
+.top-bar-section ul li a {
+	@media #{$small-only} {
+		color: $white;
+	}
+}
 
 .logo {
 	div {
@@ -332,29 +339,79 @@ header[role="banner"] {
 
 // Events
 
-.event {
-	background-color: #FFFCE3;
-	border-bottom: none !important;
-	h3 {
-
+.upcoming-event {
+	background:  linear-gradient(rgba(255,252,227, 1.6), rgba(255,252,227, 0.6)), url(../img/events/TC_Upcoming_Events_BG.jpg) no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	.event-address {
+		padding-left: 4.4em;
 	}
-	.slick-slide img {
-		margin-top: 8px;
-		margin-bottom: 25px;
+	.event-content .row {
+		margin: 3% 0 3% 0;
+		min-height: 90px;
 	}
-	.slick-prev:before, .slick-next:before {
-  display:none;
+	.upcoming-event-date-content h4 {
+		margin-bottom: 0;
 	}
-	.slick-dots li {
-	margin: 0;
-  	button:before {
-	    font-size: 10px;
+	.upcoming-event-date-logo {
+		background: transparent url(../img/events/TC_Calendar_Icon.png) no-repeat;
+		background-size: 100%;
+		height: 90px;
+		width: 85px;
+		position: absolute;
+		margin-top: 5px;
+	}
+	.upcoming-event-date {
+		position: relative;
+		margin: 30px auto;
+		text-align: center;
+		font-family: "tekton-pro",sans-serif;
+		padding-top: 12%;
+		p {
+		  text-transform: uppercase;
+			margin: 0;
+			line-height: .4;
 		}
-  }
-	.event-slider {
-		margin-bottom: 25px;
+		h5 {
+			font-weight: 400;
+			color: $green;
+		}
+	}
+
+	@media #{$small-up} {
+		#upcoming-event-img {
+			width:100%
+		}
+		h4.upcoming-event-name-left {
+			padding-top: 1em;
+			margin-top: 1em;
+		}
+		.upcoming-event-header {
+			padding-left: 1rem;
+			text-align: center;
+		}
+		.upcoming-event-date-content {
+			padding-left: 40%;
+		}
+		.upcoming-event-date-logo {
+			margin-left: 0;
+		}
 	}
 	@media #{$medium-up} {
+		h4.upcoming-event-name-left {
+			padding-top: 0;
+			margin-top: 0;
+		}
+		.upcoming-event-date-content {
+			padding-left: 4.5%;
+			padding-right: 2.5%;
+		}
+		.upcoming-event-date-logo {
+			margin-left: 5%;
+		}
+		.upcoming-event-header {
+			text-align: left;
+		}
 		h3 {
 			margin-top: 18px;
 			margin-bottom: 22px;
@@ -362,27 +419,71 @@ header[role="banner"] {
 		.event-img {
 			margin-top: -50px;
 		}
-		.event-slider {
-		}
 		margin-bottom: 0;
-
+	}
+	@media #{$medium-only} {
+		.upcoming-event-date-content {
+			padding-left: 12%;
+		}
 	}
 }
 
-.past-event {
+// Past Events section
+
+.past-events-section {
 	header {
 		padding: 0px 15px 15px;
 	}
 	h2 {
 		margin-bottom: 0;
 	}
+	p.summary-text{
+		padding-right: 2.3em;
+	}
+
+.past-event-title {
+	margin-top: 1em;
 }
 
-.upcoming-event {
-	.event-address {
-		padding-left: 4.4em;
+	@media #{$small-only} {
+		.past-events-slider-container {
+			padding: 0 1em;
+		}
+		h4 {
+			padding-top: 1em;
+		}
+		img {
+			width: 100%;
+		}
+		p.summary-text{
+			padding-right: 0;
+		}
+	}
+	@media #{$medium-only} {
+		.past-events-slider-container {
+			padding: 0 1em;
+		}
+		img {
+			width: 90%;
+		}
+		p.summary-text{
+			padding-right: 0;
+		}
 	}
 }
+
+section#past-events {
+	background: url(../img/events/TC_Past_Events_BG.jpg) no-repeat  50% 100%;
+	background-size: cover;
+	border-bottom: none !important;
+	@media #{$small-only} {
+		text-align: center;
+	}
+}
+
+
+
+
 
 // Families section
 
@@ -392,6 +493,11 @@ header[role="banner"] {
 	background: #9addf9 url(../img/burst.jpg) no-repeat 0 0;
 	h2 {
 		margin: 50px 0 20px 0;
+	}
+	@media #{$small-only} {
+		header {
+			text-align: center;
+		}
 	}
 }
 
@@ -474,6 +580,9 @@ header[role="banner"] {
 
 .about {
 	background: #fff url(../img/toon2.png) repeat; /* background-attachment: fixed; */
+	@media #{$small-only} {
+		text-align: center;
+	}
 }
 .board {
 	h6 {
@@ -481,6 +590,11 @@ header[role="banner"] {
 		font-size: 1em;
 		color: $light-blue;
 		// font-weight: bold;
+	}
+	@media #{$small-only} {
+		h3 {
+			text-align: center;
+		}
 	}
 	@media #{$medium-up}{
 		h3 {
@@ -513,7 +627,11 @@ header[role="banner"] {
 
 /* Cole Hexum section */
 
-.cole { background-color: #FFFCE3; /* background: #FFFCE3 url(../img/dots-dark.png) repeat-x; background-attachment: fixed; background-size: 14px 366px; */ }
+.cole { background-color: #FFFCE3; /* background: #FFFCE3 url(../img/dots-dark.png) repeat-x; background-attachment: fixed; background-size: 14px 366px; */
+	@media #{$small-only} {
+		text-align: center;
+	}
+}
 
 
 /* !Donations section */
